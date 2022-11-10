@@ -4,16 +4,34 @@ title: User Guide
 ---
 ## Welcome to uNivUSal's User Guide!
 
-Are you a **CS2103T student, TA, or professor**? Have you encountered the hassle of contact management in this CS2103T?
-If so, uNivUSal is the contact management app for you!
+Are you a **CS2103T student, TA, or professor**? 
 
-uNivUSal is a **desktop app for managing contacts catered to CS2103T students, TAs, and professors**, optimized for use
+Have you encountered the hassle of contact management in this CS2103T?
+
+If so, **uNivUSal** is **the** contact management app for you! With **uNivUSal**, you will never have to worry about all the contact information of all your contacts. Gone are the days of frustrating over finding the contacts you need, and you will never be stressed about forgetting the contact information of the people you meet.
+
+## Introduction
+
+**uNivUSal** is a **desktop app for managing contacts catered to CS2103T students, TAs, and professors**, optimized for use
 via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI).
 
-In this user guide, you can find everything you need to know about **uNivUSal** including instructions on how to use the
-app and all the exciting features you can explore.
+In this user guide, you can find everything you need to know about **uNivUSal** starting with how to get started using **uNivUSal**, followed by instructions on how to use **uNivUSal** and all the exciting features you can explore.
 
 >Note: If you are a developer, you might want to explore our [Developer Guide](https://ay2223s1-cs2103t-t08-3.github.io/tp/DeveloperGuide.html) instead.
+
+## How to use **uNivUSal**'s User Guide?
+
+If this is your first time using **uNivUSal**, welcome! Head over to the [Quick start](#quick-start) to get started using **uNivUSal**!
+
+If this is not your first time, and you have a specific feature you would like to know more about, checkout out our [Table of Contents](#table-of-contents) to find what you are looking for!
+
+Refer to the table below for the meanings of symbols used:
+
+| Symbol                            | Meaning                                                                                                                                         |
+|-----------------------------------|--------------------------------------------------|
+| :information_source: **Notes**                 | Information that you **must** pay attention to.                                                                                                  |
+| :bulb: **Tip**                                 | Information that you may find helpful.                                                                                                          |
+| :exclamation: **Caution**                      | Information that you need to know about the  section you are currrently looking at |
 
 ## Table of Contents
 * [Quick start](#quick-start)
@@ -58,14 +76,14 @@ app and all the exciting features you can explore.
 
 ## Quick start
 
-Before starting on your uNivUSal exploration, here's a short guide on uNivUSal's installation.
+Before starting on your **uNivUSal** exploration, here's a short guide on **uNivUSal**'s installation.
 
 1. Ensure you have [Java `11`](https://www.oracle.com/java/technologies/javase/11-relnotes.html#:~:text=The%20Java%20Platform%2C%20Standard%20Edition,enhancements%20in%20many%20functional%20areas.) or above installed in your Computer.
 Otherwise, you can install it [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html).
 
 2. Download the latest [`uNivUSal.jar`](https://github.com/AY2223S1-CS2103T-T08-3/tp/releases/tag/v1.4.0)
 
-3. Copy and move the file to the folder you want to use as the _home folder_ for your uNivUSal.
+3. Copy and move the file to the folder you want to use as the _home folder_ for your **uNivUSal**.
 
 4. Double-click the file to start the app. The GUI similar to the image below should appear in a few seconds.
 Note how the app contains some sample data.<br>
@@ -81,14 +99,17 @@ open the help window.
 
 ## Features
 
-In this section, you can explore all of uNivUSal's features. To introduce you to uNivUSal's interface, refer to the
+In this section, you can explore all of **uNivUSal**'s features. To introduce you to **uNivUSal**'s interface, refer to the
 labelled image below.
 
 ![Format](images/Format.png)
 
 <div markdown="block" class="alert alert-info">
 
-**:information_source: Notes about the command format:**<br>
+**:information_source: Notes about the command format when using CLI before you start using uNivUSal:**<br>
+ 
+* Prefixes are the different fields of your input.
+ e.g. `o/`, `n/`, `p/`, `e/`, `tut/`, `a/`, `t/`, `s/` and `#/`,are the different prefixes used in **uNivUSal**, you will find out more about the different prefixes as you go through this guide.
 
 * Words in `UPPER_CASE` are the parameters to be supplied by the user.<br>
   e.g. in `add n/NAME`, `NAME` is a parameter which can be used as `add n/John Doe`.
@@ -114,30 +135,32 @@ labelled image below.
 
 ### Person Fields
 
-Still lost on the details you can add to a person? This section will walk you through all the person fields available.
+Still lost on the details you can add to a person? This section will walk you through all the person fields available for a person's contact in **uNivUSal**.
 
 #### a. occupation : `o/`
 
-Sets the occupation of a person in uNivUSal.
+Sets the occupation of a person in **uNivUSal**.
 
 Format: `o/OCCUPATION`
 * `OCCUPATION` includes `STUDENT`, `TA`, `PROFESSOR`.
 * `OCCUPATION` is not case sensitive.
+* `OCCUPATION` is a compulsory field of a person.
 
 Example : `o/student`
 
 #### b. name : `n/`
 
-Sets the name of a person in uNivUSal.
+Sets the name of a person in **uNivUSal**.
 
 Format: `n/NAME`
 * `NAME` can be more than one word long but cannot be empty.
+* `NAME` is a compulsory field of a person.
 
 Example : `n/Shelby Peanuts`
 
 #### c. phone : `p/`
 
-Sets the phone number of a person in uNivUSal.
+Sets the phone number of a person in **uNivUSal**.
 
 Format : `p/PHONE`
 * `PHONE` must only contain digits and not alphabets, and it should be at least 3 and at most 15 digits long.
@@ -146,7 +169,7 @@ Example : `p/97865486`
 
 #### d. email : `e/`
 
-Sets the email of a person in uNivUSal.
+Sets the email of a person in **uNivUSal**.
 
 Format : `e/EMAIL`
 
@@ -163,7 +186,7 @@ Example : `e/betty@u.nus.edu`
 
 #### e. tutorial : `tut/`
 
-Sets the tutorial group of a person in uNivUSal.
+Sets the tutorial group of a person in **uNivUSal**.
 
 Format : `tut/TUTORIAL`
 * `TUTORIAL` must contain a letter from `[F/T/W]` followed by two digits.
@@ -172,7 +195,7 @@ Example : `tut/T08`
 
 #### f. address : `a/`
 
-Sets the address of a person in uNivUSal.
+Sets the address of a person in **uNivUSal**.
 
 Format : `a/ADDRESS`
 * `ADDRESS` must be at most 100 characters long.
@@ -181,7 +204,7 @@ Example : `a/36 College Avenue`
 
 #### g. tags : `t/`
 
-Sets tag(s) of a person in uNivUSal.
+Sets tag(s) of a person in **uNivUSal**.
 
 Format : `t/TAGS`
 
@@ -191,12 +214,12 @@ Example : `t/classmate friend`
 
 ### Basic Features
 
-At this point, you should be ready to explore the commands you can use in uNivUSal. This section will provide you with
-the basic commands in uNivUSal.
+At this point, you should be ready to explore the commands you can use in **uNivUSal**. This section will provide you with
+the basic commands to get you started using **uNivUSal**.
 
 #### a. Adding a person: `add`
 
-Adds a person to uNivUSal.
+Adds a person to **uNivUSal**.
 
 Format: `add o/OCCUPATION n/NAME [p/PHONE_NUMBER] [e/EMAIL] [tut/TUTORIAL] [a/ADDRESS] [t/TAG]…​`
 
@@ -213,7 +236,7 @@ Examples:
 
 #### b. Editing a person : `edit`
 
-Edits an existing person in uNivUSal.
+Edits an existing person in **uNivUSal**.
 
 Format: `edit INDEX [o/OCCUPATION] [n/NAME] [p/PHONE] [e/EMAIL] [tut/TUTORIAL] [t/TAG]…​`
 
@@ -231,7 +254,7 @@ and `janedoe@example.com` respectively.
 
 #### c. Deleting a person : `delete`
 
-Deletes the specified person from uNivUSal.
+Deletes the specified person from **uNivUSal**.
 
 Format: `delete INDEX {OPTIONAL PREFIX/}`
 
@@ -241,9 +264,9 @@ Format: `delete INDEX {OPTIONAL PREFIX/}`
 * If `PREFIX/` is provided, deletes the specified field of the person at the specified `INDEX`
 
 Examples:
-* `list` followed by `delete 2` deletes the 2nd person in uNivUSal.
+* `list` followed by `delete 2` deletes the 2nd person in **uNivUSal**.
 * `find Betsy` followed by `delete 1` deletes the 1st person in the results of the `find` command.
-* `list` followed by `delete 2 p/` deletes the 2nd person's phone number in uNivUSal.
+* `list` followed by `delete 2 p/` deletes the 2nd person's phone number in **uNivUSal**.
 
 #### d. Listing all persons : `list`
 
@@ -253,15 +276,15 @@ Format: `list`
 
 #### e. Clearing all entries : `clear`
 
-Clears all entries from uNivUSal.
+Clears all entries from **uNivUSal**.
 
 Format: `clear`
-* Deletes every person in uNivUSal.
-* Only a blank uNivUSal will remain.
+* Deletes every person in **uNivUSal**.
+* Only a blank **uNivUSal** will remain.
 
 #### f. Find entries by keywords of fields : `find KEYWORD` e.g. `find John`
 
-Finds entries in uNivUSal that match or contain case-insensitive keyword. Current fields searchable are:
+Finds entries in **uNivUSal** that match or contain case-insensitive keyword. Current fields searchable are:
 1. Name
 2. Phone Number
 
@@ -276,7 +299,7 @@ Examples:
 
 #### g. Sort entries by field : `sort FIELD_PREFIX/` e.g. `sort n/`
 
-Sorts entries in uNivUSal by specific field prefix in an ascending manner. Current fields implemented are:
+Sorts entries in **uNivUSal** by specific field prefix in an ascending manner. Current fields implemented are:
 1. Name `n/`
 2. Email address `e/`
 3. Phone `p/`
@@ -294,7 +317,7 @@ Examples:
 
 ### Enhanced Features
 
-Ready to get more out of uNivUSal? Here are the enhanced features you can experiment on to enhance your uNivUSal experience!
+Ready to get more out of **uNivUSal**? Here are the enhanced features you can experiment on to enhance your **uNivUSal** experience!
 
 #### a. Quickly edit a person's features
 
@@ -368,9 +391,13 @@ Examples:
 ![EmailAllExample1](images/EmailAllExample1.png)
 ![EmailAllExample2](images/EmailAllExample2.png)
 
+
+> :information_source: **Notes** <br>
+> **Enhanced features g to k are for managing the social media accounts of your contacts.** <br>
+> ![Socials](images/Social1.png)
 #### g. Add a person's socials : `include`
 
-Adds a valid SOCIAL to an existing person in uNivUSal.
+Adds a valid SOCIAL to an existing person in **uNivUSal**.
 
 General format: `include INDEX s/SOCIAL #/SOCIAL_INFO`
 
@@ -400,17 +427,15 @@ Examples:
 * `include 1 s/EMAIL #/johnd@example.com`
 * `include 1 s/INSTAGRAM #/johndoe`
 
-> **Note** <br>
-> EMAIL_ACCOUNT should be of the format `local-part@domain` <br>
-> WHATSAPP_PHONE_NUMBER should only contain numbers, and it should be at least 3 digits long
-
-> **Note** <br>
-> If the person already has an existing email account in uNivUSal, it will be added to the social.<br>
-> But the Phone number will not be added as the person's WHATSAPP_PHONE_NUMBER
+> :information_source: **Notes about email and whatsapp phone number**<br>
+> 1. EMAIL_ACCOUNT should be of the format `local-part@domain` <br>
+> 2. WHATSAPP_PHONE_NUMBER should only contain numbers, and it should be at least 3 digits long.<br>
+> 3. If the person already has an existing email account in **uNivUSal**, it will be added to the social.<br>
+> 4. But the Phone number will not be added as the person's WHATSAPP_PHONE_NUMBER.
 
 #### h. Delete a person's socials : `exclude`
 
-Deletes the specified person's socials from uNivUSal.
+Deletes the specified person's socials from **uNivUSal**.
 
 Format: `exclude INDEX s/SOCIAL`
 
@@ -428,7 +453,7 @@ Examples:
 
 #### i. Set a person's preferred social media : `prefer`
 
-Set the specified person's preferred social media in uNivUSal.
+Set the specified person's preferred social media in **uNivUSal**.
 
 Format: `prefer INDEX s/SOCIAL`
 
@@ -445,7 +470,7 @@ Examples:
 
 #### j. Open a person's social media : `open`
 
-Open the specified person's social media in uNivUSal.
+Open the specified person's social media in **uNivUSal**.
 
 Format: `open INDEX s/SOCIAL`
 
@@ -516,14 +541,14 @@ Format: `exit`
 
 ### Saving the data
 
-uNivUSal data are saved in the hard disk automatically after any command that changes the data. So, you do not need to save manually.
+**uNivUSal** data are saved in the hard disk automatically after any command that changes the data. So, you do not need to save manually.
 
 ### Editing the data file
 
-uNivUSal data are saved as a JSON file `[JAR file location]/data/univusal.json`. Advanced users are welcome to update data directly by editing that data file.
+**uNivUSal** data are saved as a JSON file `[JAR file location]/data/univusal.json`. Advanced users are welcome to update data directly by editing that data file.
 
 <div markdown="span" class="alert alert-warning">:exclamation: **Caution:**
-If your changes to the data file makes its format invalid, uNivUSal will discard all data and start with an empty data file at the next run.
+If your changes to the data file makes its format invalid, **uNivUSal** will discard all data and start with an empty data file at the next run.
 </div>
 
 ### Archiving data files `[coming in v2.0]`
@@ -535,7 +560,7 @@ _Details coming soon ..._
 ## FAQ
 
 **Q**: How do I transfer my data to another Computer?<br>
-**A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous uNivUSal home folder.
+**A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous **uNivUSal** home folder.
 
 _Details coming soon ..._
 
