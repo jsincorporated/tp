@@ -64,7 +64,7 @@ Note how the app contains some sample data.<br>
 5. Type the command in the command box and press Enter to execute it. e.g. typing **`help`** and pressing Enter will
 open the help window.
 
-6. Refer to the [Features](#features) below for details of each command.
+6. Refer to the [Features](#features) ([Basic Features](#basic-features), [Enhanced Features](#enhanced-features), [General App Features](#general-app-features)) below for details of each command.
 
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
@@ -97,9 +97,9 @@ open the help window.
 
 <div style="page-break-after: always;"></div>
 
-## Person Fields
+### Person Fields
 
-### a. occupation : `o/`
+#### a. occupation : `o/`
 
 Sets the occupation of a person in uNivUSal.
 
@@ -109,7 +109,7 @@ Format: `o/OCCUPATION`
 
 Example : `o/student`
 
-### b. name : `n/`
+#### b. name : `n/`
 
 Sets the name of a person in uNivUSal.
 
@@ -118,7 +118,7 @@ Format: `n/NAME`
 
 Example : `n/Shelby Peanuts`
 
-### c. phone : `p/`
+#### c. phone : `p/`
 
 Sets the phone number of a person in uNivUSal.
 
@@ -127,7 +127,7 @@ Format : `p/PHONE`
 
 Example : `p/97865486`
 
-### d. email : `e/`
+#### d. email : `e/`
 
 Sets the email of a person in uNivUSal.
 
@@ -144,7 +144,7 @@ Emails should be of the format local-part@domain and adhere to the following con
 
 Example : `e/betty@u.nus.edu`
 
-### e. tutorial : `tut/`
+#### e. tutorial : `tut/`
 
 Sets the tutorial group of a person in uNivUSal.
 
@@ -153,7 +153,7 @@ Format : `tut/TUTORIAL`
 
 Example : `tut/T08`
 
-### f. address : `a/`
+#### f. address : `a/`
 
 Sets the address of a person in uNivUSal.
 
@@ -162,7 +162,7 @@ Format : `a/ADDRESS`
 
 Example : `a/36 College Avenue`
 
-### g. tags : `t/`
+#### g. tags : `t/`
 
 Sets tag(s) of a person in uNivUSal.
 
@@ -172,9 +172,9 @@ Example : `t/classmate friend`
 
 <div style="page-break-after: always;"></div>
 
-## Basic Features
+### Basic Features
 
-### a. Adding a person: `add`
+#### a. Adding a person: `add`
 
 Adds a person to uNivUSal.
 
@@ -191,7 +191,7 @@ Examples:
 * `add o/STUDENT n/John Doe p/98765432 e/johnd@example.com tut/T08 a/John street, block 123, #01-01`
 * `add o/TA n/Betsy Crowe e/betsycrowe@u.nus.edu`
 
-### b. Editing a person : `edit`
+#### b. Editing a person : `edit`
 
 Edits an existing person in uNivUSal.
 
@@ -209,7 +209,7 @@ Examples:
 and `janedoe@example.com` respectively.
 * `edit 2 n/Betsy Crower t/` Edits the name of the 2nd person to be `Betsy Crower` and **clears** all existing tags.
 
-### c. Deleting a person : `delete`
+#### c. Deleting a person : `delete`
 
 Deletes the specified person from uNivUSal.
 
@@ -225,13 +225,13 @@ Examples:
 * `find Betsy` followed by `delete 1` deletes the 1st person in the results of the `find` command.
 * `list` followed by `delete 2 p/` deletes the 2nd person's phone number in uNivUSal.
 
-### d. Listing all persons : `list`
+#### d. Listing all persons : `list`
 
 Shows a list of all persons in uNivUSal.
 
 Format: `list`
 
-### e. Clearing all entries : `clear`
+#### e. Clearing all entries : `clear`
 
 Clears all entries from uNivUSal.
 
@@ -239,7 +239,7 @@ Format: `clear`
 * Deletes every person in uNivUSal.
 * Only a blank uNivUSal will remain.
 
-### f. Find entries by keywords of fields : `find KEYWORD` e.g. `find John`
+#### f. Find entries by keywords of fields : `find KEYWORD` e.g. `find John`
 
 Finds entries in uNivUSal that match or contain case-insensitive keyword. Current fields searchable are:
 1. Name
@@ -254,7 +254,7 @@ Examples:
 * `find J` displays the entries filtered by names that contain the case-insensitive KEYWORD `J`.
 * `find 123456` displays the entries filtered by phone numbers that contain the case-insensitive KEYWORD `123456`.
 
-### g. Sort entries by field : `sort FIELD_PREFIX/` e.g. `sort n/`
+#### g. Sort entries by field : `sort FIELD_PREFIX/` e.g. `sort n/`
 
 Sorts entries in uNivUSal by specific field prefix in an ascending manner. Current fields implemented are:
 1. Name `n/`
@@ -272,15 +272,15 @@ Examples:
 
 <div style="page-break-after: always;"></div>
 
-## Enhanced Features
+### Enhanced Features
 
-### a. Quickly edit a person's features
+#### a. Quickly edit a person's features
 
 Quickly make small changes to a person by clicking on a person card while the command box is empty.
 This creates an edit command with all the features that person currently has.
 You may then modify this command to your needs.
 
-### b. Add a person to favorite : `fav`
+#### b. Add a person to favorite : `fav`
 
 Adds the specified person to `favorite` group.
 
@@ -291,7 +291,7 @@ Format: `fav INDEX`
 Examples:
 * `fav 1` will add 1st person in the current list to `favorite`.
 
-### c. Adding a person to a group : `addtogroup`
+#### c. Adding a person to a group : `addtogroup`
 
 Adds the specified person to the specified group.
 
@@ -305,7 +305,7 @@ Examples:
 * `addtogroup 1 friends` adds the 1st person in the current list to the group `friends`.
 
 
-### d. Removing a person from a group : `ungroup`
+#### d. Removing a person from a group : `ungroup`
 
 Removes the specified person from the specified group.
 
@@ -318,7 +318,7 @@ Format: `ungroup INDEX GROUP`
 Examples:
 * `ungroup 1 friends` ungroups the 1st person in the current list from the group `friends`.
 
-### e. Opening a group window : `group`
+#### e. Opening a group window : `group`
 
 Open a new window containing the persons in the group.
 
@@ -332,7 +332,7 @@ Examples:
 ![GroupCommandExample](images/GroupCommandExample.png)
 
 
-### f. Email all persons in a group : `emailall`
+#### f. Email all persons in a group : `emailall`
 
 Open an email link to all persons in the specified group.
 
@@ -346,7 +346,7 @@ Examples:
 ![EmailAllExample1](images/EmailAllExample1.png)
 ![EmailAllExample2](images/EmailAllExample2.png)
 
-### g. Add a person's socials : `include`
+#### g. Add a person's socials : `include`
 
 Adds a valid SOCIAL to an existing person in uNivUSal.
 
@@ -386,7 +386,7 @@ Examples:
 > If the person already has an existing email account in uNivUSal, it will be added to the social.<br>
 > But the Phone number will not be added as the person's WHATSAPP_PHONE_NUMBER
 
-### h. Delete a person's socials : `exclude`
+#### h. Delete a person's socials : `exclude`
 
 Deletes the specified person's socials from uNivUSal.
 
@@ -404,7 +404,7 @@ Examples:
 * `exclude 1 s/TELEGRAM`
 * `exclude 1 s/INSTAGRAM`
 
-### i. Set a person's preferred social media : `prefer`
+#### i. Set a person's preferred social media : `prefer`
 
 Set the specified person's preferred social media in uNivUSal.
 
@@ -421,7 +421,7 @@ Examples:
 * `prefer 1 s/TELEGRAM`
 * `prefer 1 s/INSTAGRAM`
 
-### j. Open a person's social media : `open`
+#### j. Open a person's social media : `open`
 
 Open the specified person's social media in uNivUSal.
 
@@ -440,7 +440,7 @@ Examples:
 * `open 1 s/INSTAGRAM`
 * `open 1 s/PREFERRED`
 
-### k. Find persons with a preferred social media : `social`
+#### k. Find persons with a preferred social media : `social`
 
 Filters the current list to people who set their preferred social media to the input.
 
@@ -457,9 +457,9 @@ Examples:
 
 <div style="page-break-after: always;"></div>
 
-## General App Features
+### General App Features
 
-### a. Viewing help : `help`
+#### a. Viewing help : `help`
 
 Shows a message explaining the basic features of the app and also provides a link to the website.
 
@@ -467,7 +467,7 @@ Shows a message explaining the basic features of the app and also provides a lin
 
 Format: `help`
 
-### b. Viewing history : `history`
+#### b. Viewing history : `history`
 
 Shows up to the previous five commands typed by the user.
 
@@ -475,7 +475,7 @@ Shows up to the previous five commands typed by the user.
 
 Format: `history`
 
-### c. Undo last modification : `undo`
+#### c. Undo last modification : `undo`
 
 Undoes the last command that modifies the address book.
 
@@ -484,7 +484,7 @@ Format: `undo`
 * Ignores modifying commands if they don't modify the address book.
 * Will cancel out when trying to undo an undo command. This means that you cannot undo the last two actions.
 
-### d. Exiting the program : `exit`
+#### d. Exiting the program : `exit`
 
 Exits the program.
 
