@@ -109,7 +109,7 @@ labelled image below.
 **:information_source: Notes about the command format when using CLI before you start using uNivUSal:**<br>
  
 * Prefixes are the different fields of your input.
- e.g. `o/`, `n/`, `p/`, `e/`, `tut/`, `a/`, `t/`, `s/` and `#/`,are the different prefixes used in **uNivUSal**, you will find out more about the different prefixes as you go through this guide.
+ e.g. `o/`, `n/`, `p/`, `e/`, `tut/`, `a/`, `t/`, `s/` and `#/`, are the different prefixes used in **uNivUSal**, you will find out more about the different prefixes as you go through this guide.
 
 * Words in `UPPER_CASE` are the parameters to be supplied by the user.<br>
   e.g. in `add n/NAME`, `NAME` is a parameter which can be used as `add n/John Doe`.
@@ -317,7 +317,9 @@ Examples:
 
 ### Enhanced Features
 
-Ready to get more out of **uNivUSal**? Here are the enhanced features you can experiment on to enhance your **uNivUSal** experience!
+Ready to get more out of **uNivUSal**? Here are the enhanced features you can experiment on to enhance your **uNivUSal** experience! <br>
+Enhanced features **c to f** are the groups feature of uNivUSal. <br>
+Enhanced features **g to k** are the social features of uNivUSal. <br>
 
 #### a. Quickly edit a person's features
 
@@ -392,9 +394,6 @@ Examples:
 ![EmailAllExample2](images/EmailAllExample2.png)
 
 
-> :information_source: **Notes** <br>
-> **Enhanced features g to k are for managing the social media accounts of your contacts.** <br>
-> ![Socials](images/Social1.png)
 #### g. Add a person's socials : `include`
 
 Adds a valid SOCIAL to an existing person in **uNivUSal**.
