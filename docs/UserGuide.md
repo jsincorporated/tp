@@ -2,12 +2,20 @@
 layout: page
 title: User Guide
 ---
-# uNivUSal
+## Welcome to uNivUSal's User Guide!
+
+Are you a **CS2103T student, TA, or professor**? Have you encountered the hassle of contact management in this CS2103T?
+If so, uNivUSal is the contact management app for you!
 
 uNivUSal is a **desktop app for managing contacts catered to CS2103T students, TAs, and professors**, optimized for use
 via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI).
 
+In this user guide, you can find everything you need to know about **uNivUSal** including instructions on how to use the
+app and all the exciting features you can explore.
 
+>Note: If you are a developer, you might want to explore our [Developer Guide](https://ay2223s1-cs2103t-t08-3.github.io/tp/DeveloperGuide.html) instead.
+
+## Table of Contents
 * [Quick start](#quick-start)
 * [Features](#features)
   * [Person Fields](#person-fields):
@@ -49,15 +57,17 @@ via a Command Line Interface (CLI) while still having the benefits of a Graphica
 <div style="page-break-after: always;"></div>
 
 ## Quick start
-![Format](images/Format.png)
 
-1. Ensure you have Java `11` or above installed in your Computer.
+Before starting on your uNivUSal exploration, here's a short guide on uNivUSal's installation.
+
+1. Ensure you have [Java `11`](https://www.oracle.com/java/technologies/javase/11-relnotes.html#:~:text=The%20Java%20Platform%2C%20Standard%20Edition,enhancements%20in%20many%20functional%20areas.) or above installed in your Computer.
+Otherwise, you can install it [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html).
 
 2. Download the latest [`uNivUSal.jar`](https://github.com/AY2223S1-CS2103T-T08-3/tp/releases/tag/v1.4.0)
 
-3. Copy the file to the folder you want to use as the _home folder_ for your uNivUSal.
+3. Copy and move the file to the folder you want to use as the _home folder_ for your uNivUSal.
 
-4. Double-click the file to start the app. The GUI similar to the below should appear in a few seconds.
+4. Double-click the file to start the app. The GUI similar to the image below should appear in a few seconds.
 Note how the app contains some sample data.<br>
    ![Ui](images/Ui.png)
 
@@ -70,6 +80,11 @@ open the help window.
 <div style="page-break-after: always;"></div>
 
 ## Features
+
+In this section, you can explore all of uNivUSal's features. To introduce you to uNivUSal's interface, refer to the
+labelled image below.
+
+![Format](images/Format.png)
 
 <div markdown="block" class="alert alert-info">
 
@@ -98,6 +113,8 @@ open the help window.
 <div style="page-break-after: always;"></div>
 
 ### Person Fields
+
+Still lost on the details you can add to a person? This section will walk you through all the person fields available.
 
 #### a. occupation : `o/`
 
@@ -173,6 +190,9 @@ Example : `t/classmate friend`
 <div style="page-break-after: always;"></div>
 
 ### Basic Features
+
+At this point, you should be ready to explore the commands you can use in uNivUSal. This section will provide you with
+the basic commands in uNivUSal.
 
 #### a. Adding a person: `add`
 
@@ -273,6 +293,8 @@ Examples:
 <div style="page-break-after: always;"></div>
 
 ### Enhanced Features
+
+Ready to get more out of uNivUSal? Here are the enhanced features you can experiment on to enhance your uNivUSal experience!
 
 #### a. Quickly edit a person's features
 
@@ -459,6 +481,8 @@ Examples:
 
 ### General App Features
 
+Worried that you'd forget a command or typed in the wrong command? Our general app features is here to help you get through these worries!
+
 #### a. Viewing help : `help`
 
 Shows a message explaining the basic features of the app and also provides a link to the website.
@@ -492,7 +516,7 @@ Format: `exit`
 
 ### Saving the data
 
-uNivUSal data are saved in the hard disk automatically after any command that changes the data. There is no need to save manually.
+uNivUSal data are saved in the hard disk automatically after any command that changes the data. So, you do not need to save manually.
 
 ### Editing the data file
 
@@ -517,6 +541,7 @@ _Details coming soon ..._
 
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
+
 ## Command summary
 
 | Action                | Format, Examples                                                                                                                                                                                             |
