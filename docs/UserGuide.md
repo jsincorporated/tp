@@ -421,10 +421,14 @@ Format(Email): `include INDEX s/EMAIL #/EMAIL_ACCOUNT`
 Format(Instagram): `include INDEX s/INSTAGRAM #/INSTAGRAM_USERNAME`
 
 Examples:
-* `include 1 s/WHATSAPP #/87654321`
-* `include 1 s/TELEGRAM #/JohnDoe321`
-* `include 1 s/EMAIL #/johnd@example.com`
-* `include 1 s/INSTAGRAM #/johndoe`
+* `include 1 s/WHATSAPP #/87654321` sets `87654321` as the whatsapp phone number of the 1st person in the contact list.
+* `include 1 s/TELEGRAM #/JohnDoe321` sets `JohnDoe321` as the telegram username of the 1st person in the contact list.
+* `include 1 s/EMAIL #/johnd@example.com` sets `johnd@example.com` as the social email of the 1st person in the contact list.
+* `include 1 s/INSTAGRAM #/johndoe` sets `johndoe` as the instagram username of the 1st person in the contact list.
+* Before running the above commands: <br>
+  ![IncludeBefore](images/IncludeBefore.png)
+* After running the above commands: <br>
+  ![IncludeAfter](images/IncludeAfter.png)
 
 > :information_source: **Notes about email and whatsapp phone number**<br>
 > 1. EMAIL_ACCOUNT should be of the format `local-part@domain` <br>
@@ -447,8 +451,12 @@ Format: `exclude INDEX s/SOCIAL`
 * `SOCIAL` is case-insensitive
 
 Examples:
-* `exclude 1 s/TELEGRAM`
-* `exclude 1 s/INSTAGRAM`
+* `exclude 1 s/TELEGRAM` deletes the telegram username of the 1st person in the contact list.
+* `exclude 1 s/INSTAGRAM` deletes the instagram username of the 1st person in the contact list.
+* Before running the above commands: <br>
+  ![ExcludeBefore](images/ExcludeBefore.png)
+* After running the above commands: <br>
+  ![ExcludeAfter](images/ExcludeAfter.png)
 
 #### i. Set a person's preferred social media : `prefer`
 
@@ -464,8 +472,14 @@ Format: `prefer INDEX s/SOCIAL`
 * `SOCIAL` is case-insensitive
 
 Examples:
-* `prefer 1 s/TELEGRAM`
-* `prefer 1 s/INSTAGRAM`
+* `prefer 1 s/TELEGRAM` sets telegram as the preferred social media of the first person in the contact list.
+* `prefer 1 s/INSTAGRAM` sets instagram as the preferred social media of the first person in the contact list.
+* Before running the above commands: <br>
+  ![PreferBefore](images/PreferBefore.png)
+* After running `prefer 1 s/TELEGRAM`: <br>
+  ![PreferTelegram](images/PreferTelegram.png)
+* After running `prefer 1 s/INSTAGRAM`: <br>
+  ![PreferInstagram](images/PreferInstagram.png)
 
 #### j. Open a person's social media : `open`
 
@@ -482,9 +496,21 @@ Format: `open INDEX s/SOCIAL`
 * `SOCIAL` is case-insensitive
 
 Examples:
-* `open 1 s/TELEGRAM`
-* `open 1 s/INSTAGRAM`
-* `open 1 s/PREFERRED`
+* `open 1 s/WHATSAPP` opens the link to the whatsapp of the first person in the contact list.
+
+  ![OpenWhatsapp](images/OpenWhatsapp.png)
+* `open 1 s/TELEGRAM` opens the link to the telegram of the first person in the contact list.
+
+  ![OpenTelegram](images/OpenTelegram.png)
+* `open 1 s/INSTAGRAM` opens the link to the instagram of the first person in the contact list.
+
+  ![OpenInstagram](images/OpenInstagram.png)
+* `open 1 s/PREFERRED` opens the link to the preferred social media of the first person in the contact list.
+
+> :information_source: **Notes on opening social**<br>
+> The social media boxes are **buttons**!
+> Clicking the social media boxes of the contacts will open the link to the social media of the person.
+> Try it out!
 
 #### k. Find persons with a preferred social media : `social`
 
