@@ -145,6 +145,8 @@ Want to know more about our social feature? Head over to parts [g](#g-add-a-pers
 
 ### Command Format
 
+Here's a short list of command formats to familiarize yourself with our User Guide's instructions!
+
 <div markdown="block" class="alert alert-info">
 
 **:information_source: Notes about the command format when using CLI before you start using uNivUSal:**<br>
@@ -175,20 +177,24 @@ Want to know more about our social feature? Head over to parts [g](#g-add-a-pers
 
 Still lost on the details you can add to a person? This section will walk you through all the person fields available for a person's contact in **uNivUSal**.
 
+Need some visual reference for the person fields? Refer back to our [PersonCard](#person-card) section!
+
+Unsure of what a prefix is? Give our [prefix definition](#prefix) a quick read before proceeding!
+
 #### a. occupation : `o/`
 
-Sets the occupation of a person in **uNivUSal**.
+You can see the occupation of a person in **uNivUSal** is here.
 
 Format: `o/OCCUPATION`
 * `OCCUPATION` includes `STUDENT`, `TA`, `PROFESSOR`.
-* `OCCUPATION` is not case sensitive.
+* `OCCUPATION` is not case-sensitive.
 * `OCCUPATION` is a compulsory field of a person.
 
 Example : `o/student`
 
 #### b. name : `n/`
 
-Sets the name of a person in **uNivUSal**.
+You can see the name of a person in **uNivUSal** here.
 
 Format: `n/NAME`
 * `NAME` can be more than one word long but cannot be empty.
@@ -198,7 +204,7 @@ Example : `n/Shelby Peanuts`
 
 #### c. phone : `p/`
 
-Sets the phone number of a person in **uNivUSal**.
+You can see the phone number of a person in **uNivUSal** here.
 
 Format : `p/PHONE`
 * `PHONE` must only contain digits and not alphabets, and it should be at least 3 and at most 15 digits long.
@@ -207,7 +213,7 @@ Example : `p/97865486`
 
 #### d. email : `e/`
 
-Sets the email of a person in **uNivUSal**.
+You can see the email of a person in **uNivUSal** here.
 
 Format : `e/EMAIL`
 
@@ -224,7 +230,7 @@ Example : `e/betty@u.nus.edu`
 
 #### e. tutorial : `tut/`
 
-Sets the tutorial group of a person in **uNivUSal**.
+You can see the tutorial group of a person in **uNivUSal** here.
 
 Format : `tut/TUTORIAL`
 * `TUTORIAL` must contain a letter from `[F/T/W]` followed by two digits.
@@ -233,7 +239,7 @@ Example : `tut/T08`
 
 #### f. address : `a/`
 
-Sets the address of a person in **uNivUSal**.
+You can see the address of a person in **uNivUSal** here.
 
 Format : `a/ADDRESS`
 * `ADDRESS` must be at most 100 characters long.
@@ -242,7 +248,7 @@ Example : `a/36 College Avenue`
 
 #### g. tags : `t/`
 
-Sets tag(s) of a person in **uNivUSal**.
+You can see the tag(s) of a person in **uNivUSal** here.
 
 Format : `t/TAGS`
 
@@ -471,7 +477,7 @@ Examples:
 
 ### g. Add a person's socials : `include`
 
-You can add a valid SOCIAL to an existing person in **uNivUSal** as shown below.
+You can add a valid `SOCIAL` to an existing person in **uNivUSal** as shown below.
 
 General format: `include INDEX s/SOCIAL #/SOCIAL_INFO`
 
@@ -514,7 +520,8 @@ Examples:
 
 ### h. Delete a person's socials : `exclude`
 
-Made a mistake in entering a person's socials? You can delete a specified person's socials from **uNivUSal** as shown below.
+If you made a mistake in entering a person's socials, or a particular contact changed one of their social media information.
+You can easily delete a specified person's socials from **uNivUSal** as shown below.
 
 Format: `exclude INDEX s/SOCIAL`
 
@@ -537,8 +544,8 @@ Examples:
 
 ### i. Set a person's preferred social media : `prefer`
 
-Confused with all the social medias a person have? Want to know which social media they prefer? The `prefer` command is
-here for you! You can set a specified person's preferred social media in **uNivUSal** as shown below.
+If your contact has a specific social media they prefer to use. How do you remember all the different preferred mode of communication of all your contacts?
+Well, you can easily set a specified person's preferred social media in **uNivUSal** as shown below.
 
 Format: `prefer INDEX s/SOCIAL`
 
@@ -562,7 +569,8 @@ Examples:
 
 ### j. Open a person's social media : `open`
 
-Aside from storing your contact's socials, you can also open their social media through **uNivUSal** as shown below!
+After you have added all the social media information of your contacts. How do you access all the information?
+You can easily open a specified person's social media in your default web browser as shown below.
 
 Format: `open INDEX s/SOCIAL`
 
@@ -692,10 +700,7 @@ If your computer is not running Java 11, you can install it [here](https://www.o
 
 ## Cosmetics <br>
 **Q**: Can I set my own images for certain contacts?<br>
-**A**: Unfortunately not in this version of uNivUSal, although this is a feature we are aiming to roll out in the near future! 
-
-##
-
+**A**: Unfortunately not in this version of uNivUSal, although this is a feature we are aiming to roll out in the near future!
 
 
 --------------------------------------------------------------------------------------------------------------------
