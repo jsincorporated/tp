@@ -2,7 +2,7 @@
 layout: page
 title: User Guide
 ---
-## Welcome to uNivUSal's User Guide!
+## Welcome to **uNivUSal's** User Guide!
 
 Are you a **CS2103T student, TA, or professor**? 
 
@@ -87,6 +87,8 @@ Before starting on your **uNivUSal** exploration, here's a short guide on **uNiv
 Otherwise, you can install it [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html).
 
 2. Download the latest [`uNivUSal.jar`](https://github.com/AY2223S1-CS2103T-T08-3/tp/releases/tag/v1.4.0).
+
+[!InstallationJarFile](images/InstallationJarFile.png)
 
 3. Copy and move the file to the folder you want to use as the _home folder_ for your **uNivUSal**.
 
@@ -272,6 +274,7 @@ It is fine to add a person missing many details as long as the occupation and na
 Examples:
 * `add o/STUDENT n/John Doe p/98765432 e/johnd@example.com tut/T08 a/John street, block 123, #01-01`
 * `add o/TA n/Betsy Crowe e/betsycrowe@u.nus.edu`
+![AddCommandExample](images/AddCommandExample.png)
 
 ### b. Editing a person : `edit`
 
@@ -340,9 +343,14 @@ Format: `find KEYWORD`
 * Displays filtered list.
 
 Examples:
-* `find John` displays the entries filtered by names that contain the case-insensitive KEYWORD `John`.
-* `find J` displays the entries filtered by names that contain the case-insensitive KEYWORD `J`.
-* `find 123456` displays the entries filtered by phone numbers that contain the case-insensitive KEYWORD `123456`.
+* `find Alex` displays the entries filtered by names that contain the case-insensitive KEYWORD `Alex`.
+
+[!FindGeneral](images/FindGeneral.png)
+
+
+* `find A` displays the entries filtered by names that contain the case-insensitive KEYWORD `A`.
+
+[!FindSpecific](images/FindSpecific.png)
 
 ### g. Sort entries by field : `sort FIELD_PREFIX/` e.g. `sort n/`
 
@@ -374,8 +382,8 @@ Examples:
 ## Enhanced Commands
 
 Ready to get more out of **uNivUSal**? Here are the enhanced features you can experiment on to enhance your **uNivUSal** experience! <br>
-Enhanced features **[b](#b-add-a-person-to-favorite--fav) to [f](#f-email-all-persons-in-a-group--emailall)** are the groups feature of uNivUSal. <br>
-Enhanced features **[g](#g-add-a-persons-socials--include) to [k](#k-find-persons-with-a-preferred-social-media--social)** are the social features of uNivUSal. <br>
+Enhanced features **[b](#b-add-a-person-to-favorite--fav) to [f](#f-email-all-persons-in-a-group--emailall)** are the groups feature of **uNivUSal**. <br>
+Enhanced features **[g](#g-add-a-persons-socials--include) to [k](#k-find-persons-with-a-preferred-social-media--social)** are the social features of **uNivUSal**. <br>
 
 ### a. Quickly edit a person's features
 
@@ -401,7 +409,7 @@ Examples:
 
 ### c. Adding a person to a group : `addtogroup`
 
-Adds the specified person to the specified group.
+When you're ready to start creating groups and adding people to them, use the `addtogroup` command! If the group does not exist yet, it creates it for you.
 
 Format: `addtogroup INDEX GROUP`
 
@@ -410,12 +418,13 @@ Format: `addtogroup INDEX GROUP`
 * The index **must be a positive integer** 1, 2, 3, …​
 
 Examples:
-* `addtogroup 1 friends` adds the 1st person in the current list to the group `friends`.
+* `addtogroup 2 friends` adds the 2nd person in the current list to the group `friends`.
+![AddToGroupCommmandExample](images/AddToGroupCommmandExample.png)
 
 
 ### d. Removing a person from a group : `ungroup`
 
-Removes the specified person from the specified group.
+If you want to remove a person from a group, simply `ungroup` them!
 
 Format: `ungroup INDEX GROUP`
 
@@ -424,11 +433,12 @@ Format: `ungroup INDEX GROUP`
 * The index **must be a positive integer** 1, 2, 3, …​
 
 Examples:
-* `ungroup 1 friends` ungroups the 1st person in the current list from the group `friends`.
+* `ungroup 2 friends` ungroups the 2nd person in the current list from the group `friends`.
+![UngroupCommmandExample](images/UngroupCommmandExample.png)
 
 ### e. Opening a group window : `group`
 
-Open a new window containing the persons in the group.
+To see your `friends`, `colleagues`,  or any other groups, use the `group` command to open a new window where you can easily reach them!
 
 Format: `group GROUPNAME`
 
@@ -442,7 +452,7 @@ Examples:
 
 ### f. Email all persons in a group : `emailall`
 
-Open an email link to all persons in the specified group.
+What if you want to send an email to all the members of a group? With the `emailall` command, you can do just that!
 
 Format: `emailall GROUPNAME`
 
