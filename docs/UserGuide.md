@@ -748,7 +748,7 @@ If your computer is not running Java 11, you can install it [here](https://www.o
 - JAR stands for Java Archive and is used to store the files to run **uNivUSal**. You can double-click on JAR files to run it.
 
 ### JSON File
-- JSON stands for JavaScript Object Notation and is used for storing your data in **uNivUSal**. Click here to learn more.
+- JSON stands for JavaScript Object Notation and is used for storing your data in **uNivUSal**. Click [here](https://en.wikipedia.org/wiki/JSON) to learn more.
 
 ### OS
 - OS stands for Operating System. **uNivUSal** can be run on OS such as Linux, macOS, and Windows.
