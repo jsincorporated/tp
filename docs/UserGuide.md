@@ -639,10 +639,12 @@ Format: `social SOCIAL`
   * Instagram
 * `SOCIAL` is case-insensitive
 
+<div style="page-break-after: always;"></div>
 Examples:
 * Before `social telegram`, you will see all your contacts with their multiple preferred social media.
 ![socialBefore](images/SocialBefore.jpg)
 
+<div style="page-break-after: always;"></div>
 * After `social telegram`, you will see a filtered list of persons with `telegram` as their preferred social media.
 ![socialAfter](images/SocialAfter.png)<br>
 
