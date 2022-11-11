@@ -422,7 +422,7 @@ Format: `addtogroup INDEX GROUP`
 
 Examples:
 * `addtogroup 2 friends` adds the 2nd person in the current list to the group `friends`.
-![AddToGroupCommmandExample](images/AddToGroupCommmandExample.png)
+  ![AddToGroupCommmandExample](images/AddToGroupCommmandExample.png)
 
 
 ### d. Removing a person from a group : `ungroup`
@@ -437,7 +437,7 @@ Format: `ungroup INDEX GROUP`
 
 Examples:
 * `ungroup 2 friends` ungroups the 2nd person in the current list from the group `friends`.
-![UngroupCommmandExample](images/UngroupCommmandExample.png)
+  ![UngroupCommmandExample](images/UngroupCommmandExample.png)
 
 ### e. Opening a group window : `group`
 
@@ -450,7 +450,7 @@ Format: `group GROUPNAME`
 
 Examples:
 * `group friends` opens a group window containing persons in the group `friends`.
-![GroupCommandExample](images/GroupCommandExample.png)
+  ![GroupCommandExample](images/GroupCommandExample.png)
 
 
 ### f. Email all persons in a group : `emailall`
@@ -464,8 +464,9 @@ Format: `emailall GROUPNAME`
 
 Examples:
 * `emailall friends` opens the email client to all persons in the group `friends`.
-![EmailAllExample1](images/EmailAllExample1.png)
-![EmailAllExample2](images/EmailAllExample2.png)
+  ![EmailAllExample1](images/EmailAllExample1.png)
+* Email client or web browser opens
+  ![EmailAllExample2](images/EmailAllExample2.png)
 
 
 ### g. Add a person's socials : `include`
