@@ -32,7 +32,7 @@ You can also refer to the [Glossary](#glossary) section for definitions of commo
 
 ## Notations used in this guide
 
-If you are wondering why our guide uses different stylings, here is why:
+If you are wondering why our guide uses different styling, here is why:
 1. Headers in orange are to represent the different sections of the guide.
 2. **Bolded words** are words/phrases we want to draw attention to you.
 3. [Words in blue] are links that will provide you with helpful information. 
@@ -65,7 +65,7 @@ Refer to the table below for the meanings of symbols used:
     3. [Deleting a person](#c-deleting-a-person-delete) : `delete`
     4. [Listing all persons](#d-listing-all-persons--list) : `list`
     5. [Clearing all entries](#e-clearing-all-entries--clear) : `clear`
-    6. [Find a person](#f-find-entries-by-keywords-of-fields--find-keyword-eg-find-john) : `find`
+    6. [Find a person](#f-find-entries-by-keywords-of-fields--find-keyword-eg-find-alex) : `find`
     7. [Sorting entries by field](#g-sort-entries-by-field--sort-field_prefix-eg-sort-n) : `sort`
 * [Enhanced Commands](#enhanced-commands):
     1. [Quickly edit a person](#a-quickly-edit-a-persons-features)
@@ -102,13 +102,13 @@ Otherwise, you can install it [here](https://www.oracle.com/java/technologies/ja
 
 2. Download the latest [`uNivUSal.jar`](https://github.com/AY2223S1-CS2103T-T08-3/tp/releases/tag/v1.4.0).
 
-   ![InstallationJarFile](images/InstallationJarFile.png)<br>
+   ![InstallationJarFile](images/InstallationJarFile.png)
 
 3. Copy and move the file to the folder you want to use as the _home folder_ for your **uNivUSal**.
 
 4. Double-click the file to start the app. The GUI similar to the image below should appear in a few seconds.
 Note how the app contains some sample data.
-   ![Ui](images/Ui.png)
+![Ui](images/Ui.png)
 
 5. Type the command in the command line and press Enter to execute it. e.g. typing **`help`** and pressing Enter will
 open the help window.
@@ -407,7 +407,6 @@ Enhanced features **[g](#g-add-a-persons-socials--include) to [k](#k-find-person
 Quickly make small changes to a person by clicking on a person card while the command box is empty.
 This creates an edit command with all the features that person currently has.
 You may then modify this command to your needs.
-
 ![QuickEdit](images/QuickEdit.png)
 
 ### b. Add a person to favorite : `fav`
@@ -423,7 +422,6 @@ Examples:
 * `fav 1` will add 1st person in the current list to `favorite`. To open the `favorite` group, enter the `group favorite`.
 You should see a new window pop up like the image below. Refer to [`group`](#e-opening-a-group-window--group) for more
 information on accessing your `favorite` group.
-
 ![Fav](images/Fav.png)
 
 ### c. Adding a person to a group : `addtogroup`
@@ -644,17 +642,19 @@ Worried that you'd forget a command or typed in the wrong command? Our general a
 
 Shows a message explaining the basic features of the app and also provides a link to the website.
 
-![help message](images/HelpMessage.png)
-
 Format: `help`
+
+Example:
+![help message](images/HelpMessage.png)
 
 ### b. Viewing history : `history`
 
 If you've forgotten the previous commands you've typed, use the `history` command which shows up to the previous five commands typed by the user.
 
-![history message](images/historyMessage.png)
-
 Format: `history`
+
+Example:
+![history message](images/historyMessage.png)
 
 ### c. Undo last modification : `undo`
 
