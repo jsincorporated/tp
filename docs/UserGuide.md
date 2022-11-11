@@ -103,6 +103,8 @@ open the help window.
 >:bulb: Unsure of what a command line is? Refer to our Layout section [here](#layout)
 
 6. Refer to the [Basic Commands](#basic-commands), [Enhanced Commands](#enhanced-commands), [General App Commands](#general-app-commands) below for details of each command.
+
+--------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
 
 ### Layout
@@ -144,6 +146,9 @@ contact's socials (in the form of buttons), including their [preferred social](#
 
 Want to know more about our social feature? Head over to parts [g](#g-add-a-persons-socials--include) to [k](#k-find-persons-with-a-preferred-social-media--social) of our [Enhanced Commands](#enhanced-commands)!
 
+--------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
+
 ### Command Format
 
 Here's a short list of command formats to familiarize yourself with our User Guide's instructions!
@@ -172,6 +177,7 @@ Here's a short list of command formats to familiarize yourself with our User Gui
 
 </div>
 
+--------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
 
 ### Person Fields
@@ -255,9 +261,8 @@ Format : `t/TAGS`
 
 Example : `t/classmate friend`
 
-<div style="page-break-after: always;"></div>
-
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Basic Commands
 
@@ -352,12 +357,10 @@ Format: `find KEYWORD`
 
 Examples:
 * `find Alex` displays the entries filtered by names that contain the case-insensitive KEYWORD `Alex`.
-
 ![FindGeneral](images/FindGeneral.png)
 
 
 * `find A` displays the entries filtered by names that contain the case-insensitive KEYWORD `A`.
-
 ![FindSpecific](images/FindSpecific.png)
 
 ### g. Sort entries by field : `sort FIELD_PREFIX/` e.g. `sort n/`
@@ -376,16 +379,13 @@ Format: `sort FIELD_PREFIX/`
 
 Examples:
 * Before `sort n/`, you would see the current unsorted list.
-
 ![SortBefore](images/SortBefore.jpg)
 
 * After `sort n/`, all your contacts are alphabetically sorted by their name.
-
 ![SortAfter](images/SortAfter.jpg)
 
-<div style="page-break-after: always;"></div>
-
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Enhanced Commands
 
@@ -472,6 +472,7 @@ Format: `emailall GROUPNAME`
 Examples:
 * `emailall friends` opens the email client to all persons in the group `friends`.
   ![EmailAllExample1](images/EmailAllExample1.png)
+
 * Email client or web browser opens
   ![EmailAllExample2](images/EmailAllExample2.png)
 
@@ -510,6 +511,7 @@ Examples:
 * `include 1 s/INSTAGRAM #/johndoe` sets `johndoe` as the instagram username of the 1st person in the contact list.
 * Before running the above commands: <br>
   ![IncludeBefore](images/IncludeBefore.png)
+
 * After running the above commands: <br>
   ![IncludeAfter](images/IncludeAfter.png)
 
@@ -586,14 +588,14 @@ Format: `open INDEX s/SOCIAL`
 
 Examples:
 * `open 1 s/WHATSAPP` opens the link to the whatsapp of the first person in the contact list.
-
   ![OpenWhatsapp](images/OpenWhatsapp.png)
+
 * `open 1 s/TELEGRAM` opens the link to the telegram of the first person in the contact list.
-
   ![OpenTelegram](images/OpenTelegram.png)
-* `open 1 s/INSTAGRAM` opens the link to the instagram of the first person in the contact list.
 
+* `open 1 s/INSTAGRAM` opens the link to the instagram of the first person in the contact list.
   ![OpenInstagram](images/OpenInstagram.png)
+
 * `open 1 s/PREFERRED` opens the link to the preferred social media of the first person in the contact list.
 
 > :information_source: **Notes on opening social**<br>
@@ -617,16 +619,13 @@ Format: `social SOCIAL`
 
 Examples:
 * Before `social telegram`, you will see all your contacts with their multiple preferred social media.
-
 ![socialBefore](images/SocialBefore.jpg)
 
 * After `social telegram`, you will see a filtered list of persons with `telegram` as their preferred social media.
-
 ![socialAfter](images/SocialAfter.png)<br>
 
-<div style="page-break-after: always;"></div>
-
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## General App Commands
 
@@ -680,6 +679,7 @@ If your changes to the data file makes its format invalid, **uNivUSal** will dis
 _Details coming soon ..._
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## FAQ
 
@@ -696,8 +696,6 @@ If your computer is not running Java 11, you can install it [here](https://www.o
 
 **Q**: Do I need an internet connection to run the app?<br>
 **A**: No! **uNivUSal** stores your data offline so there is no need to worry about needing a connection to run.
-
-
 
 ## Cosmetics <br>
 **Q**: Can I set my own images for certain contacts?<br>
@@ -733,6 +731,7 @@ If your computer is not running Java 11, you can install it [here](https://www.o
 | **Email All**         | `emailall GROUPNAME`                                                                                                                                                                                         |
 | **Exit**              | `exit`                                                                                                                                                                                                       |
 
+<div style="page-break-after: always;"></div>
 
 ## Glossary
 
