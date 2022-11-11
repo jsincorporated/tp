@@ -644,7 +644,6 @@ Shows a message explaining the basic features of the app and also provides a lin
 
 Format: `help`
 
-Example:
 ![help message](images/HelpMessage.png)
 
 ### b. Viewing history : `history`
@@ -664,6 +663,16 @@ Format: `undo`
 * Undoes the last modifying command.
 * Ignores modifying commands if they don't modify the address book.
 * Will cancel out when trying to undo an undo command. This means that you cannot undo the last two actions.
+
+Examples:
+* After `delete 1`, a person (Alex Yeoh) was removed from the list.
+![before undo](images/beforeUndo.png)
+
+* After  `undo`, the first person is added back to the list.
+![after undo](images/afterUndo.png)
+
+* After another `undo`, the same person is removed from the list again.
+![before undo](images/beforeUndo.png)
 
 ### d. Exiting the program : `exit`
 
