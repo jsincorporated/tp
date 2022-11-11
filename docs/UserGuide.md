@@ -50,7 +50,7 @@ Refer to the table below for the meanings of symbols used:
 * [Basic Commands](#basic-commands):
     1. [Adding a person](#a-adding-a-person-add) : `add`
     2. [Editing a person](#b-editing-a-person--edit) : `edit`
-    3. [Deleting a person](#c-deleting-a-person--delete) : `delete`
+    3. [Deleting a person](#c-deleting-a-person-delete) : `delete`
     4. [Listing all persons](#d-listing-all-persons--list) : `list`
     5. [Clearing all entries](#e-clearing-all-entries--clear) : `clear`
     6. [Find a person](#f-find-entries-by-keywords-of-fields--find-keyword-eg-find-john) : `find`
@@ -72,7 +72,9 @@ Refer to the table below for the meanings of symbols used:
     2. [Viewing history](#b-viewing-history--history) : `history`
     3. [Undoing last command](#c-undo-last-modification--undo) : `undo`
     4. [Exiting the app](#d-exiting-the-program--exit) : `exit`
+* [FAQ](#faq)
 * [Command summary](#command-summary)
+* [Glossary](#glossary)
 
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
@@ -99,7 +101,7 @@ Note how the app contains some sample data.<br>
 5. Type the command in the command box and press Enter to execute it. e.g. typing **`help`** and pressing Enter will
 open the help window.
 
-6. Refer to the [Features](#features) ([Basic Features](#basic-features), [Enhanced Features](#enhanced-features), [General App Features](#general-app-features)) below for details of each command.
+6. Refer to the ([Basic Features](#basic-commands), [Enhanced Features](#enhanced-commands), [General App Features](#general-app-commands)) below for details of each command.
 <div style="page-break-after: always;"></div>
 
 ### Layout
@@ -345,12 +347,12 @@ Format: `find KEYWORD`
 Examples:
 * `find Alex` displays the entries filtered by names that contain the case-insensitive KEYWORD `Alex`.
 
-[!FindGeneral](images/FindGeneral.png)
+![FindGeneral](images/FindGeneral.png)
 
 
 * `find A` displays the entries filtered by names that contain the case-insensitive KEYWORD `A`.
 
-[!FindSpecific](images/FindSpecific.png)
+![FindSpecific](images/FindSpecific.png)
 
 ### g. Sort entries by field : `sort FIELD_PREFIX/` e.g. `sort n/`
 
@@ -469,7 +471,7 @@ Examples:
 
 ### g. Add a person's socials : `include`
 
-Adds a valid SOCIAL to an existing person in **uNivUSal**.
+You can add a valid SOCIAL to an existing person in **uNivUSal** as shown below.
 
 General format: `include INDEX s/SOCIAL #/SOCIAL_INFO`
 
@@ -484,6 +486,7 @@ General format: `include INDEX s/SOCIAL #/SOCIAL_INFO`
   * Email
   * Instagram username
 * `SOCIAL` is case-insensitive
+* `INDEX` refers to the position of the contact in the list. See [Layout](#layout).
 
 Format(WHATSAPP): `include INDEX s/WHATSAPP #/WHATSAPP_PHONE_NUMBER`
 
@@ -511,7 +514,7 @@ Examples:
 
 ### h. Delete a person's socials : `exclude`
 
-Deletes the specified person's socials from **uNivUSal**.
+You can delete a specified person's socials from **uNivUSal** as shown below.
 
 Format: `exclude INDEX s/SOCIAL`
 
@@ -522,6 +525,7 @@ Format: `exclude INDEX s/SOCIAL`
   * Instagram
   * Preferred
 * `SOCIAL` is case-insensitive
+* `INDEX` refers to the position of the contact in the list. See [Layout](#layout).
 
 Examples:
 * `exclude 1 s/TELEGRAM` deletes the telegram username of the 1st person in the contact list.
@@ -533,7 +537,7 @@ Examples:
 
 ### i. Set a person's preferred social media : `prefer`
 
-Set the specified person's preferred social media in **uNivUSal**.
+You can set a specified person's preferred social media in **uNivUSal** as shown below.
 
 Format: `prefer INDEX s/SOCIAL`
 
@@ -543,6 +547,7 @@ Format: `prefer INDEX s/SOCIAL`
   * Email
   * Instagram
 * `SOCIAL` is case-insensitive
+* `INDEX` refers to the position of the contact in the list. See [Layout](#layout).
 
 Examples:
 * `prefer 1 s/TELEGRAM` sets telegram as the preferred social media of the first person in the contact list.
@@ -556,7 +561,7 @@ Examples:
 
 ### j. Open a person's social media : `open`
 
-Open the specified person's social media in **uNivUSal**.
+You can open a specified person's social media in **uNivUSal** as shown below.
 
 Format: `open INDEX s/SOCIAL`
 
@@ -567,6 +572,7 @@ Format: `open INDEX s/SOCIAL`
   * Instagram
   * Preferred (the person's currently preferred social media that has been set)
 * `SOCIAL` is case-insensitive
+* `INDEX` refers to the position of the contact in the list. See [Layout](#layout).
 
 Examples:
 * `open 1 s/WHATSAPP` opens the link to the whatsapp of the first person in the contact list.
@@ -701,21 +707,54 @@ If your computer is not running Java 11, you can install it [here](https://www.o
 | **Help**              | `help`                                                                                                                                                                                              |
 | **History**           | `history`                                                                                                                                                                                           |
 | **Add**               | `add o/OCCUPATION n/NAME [p/PHONE_NUMBER] [e/EMAIL] [tut/TUTORIAL] [t/TAG]…​` <br>e.g., `add o/STUDENT n/James Ho p/22224444 e/jamesho@example.com tut/T08 a/123, Clementi Rd, 1234665 t/friend t/colleague` |
-| **List**              | `list`                                                                                                                                                                                              |
-| **Edit**              | `edit INDEX [o/OCCUPATION] [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [tut/TUTORIAL] [t/TAG]…​`<br> e.g.,`edit 2 n/James Lee e/jameslee@example.com`                                                       |
-| **Delete**            | `delete INDEX [PREFIX/]`<br> e.g., `delete 3`,`delete 3 p/`                                                                                                                                         |
-| **Clear**             | `clear`                                                                                                                                                                                             |
-| **Undo**              | `undo`                                                                                                                                                                                              |
-| **Sort**              | `sort FIELD_PREFIX/` <br> e.g., `sort n/`                                                                                                                                                           |
-| **Find**              | `find KEYWORD` <br> e.g., `find John / find J`                                                                                                                                                      |
-| **Add To Group**      | `addtogroup INDEX GROUP`                                                                                                                                                                            |
-| **Ungroup**           | `ungroup INDEX GROUP`                                                                                                                                                                               |
-| **Open Group Window** | `group GROUPNAME`                                                                                                                                                                                   |
-| **Favorite**          | `fav INDEX`                                                                                                                                                                                         |
-| **Include**           | `include INDEX s/SOCIAL #/SOCIAL_INFO`                                                                                                                                                              |
-| **Exclude**           | `exclude INDEX s/SOCIAL`                                                                                                                                                                            |
-| **Prefer**            | `prefer INDEX s/SOCIAL`                                                                                                                                                                             |
-| **Open**              | `open INDEX s/SOCIAL`                                                                                                                                                                               |
-| **Social**            | `social SOCIAL`                                                                                                                                                                                     |                                                                                                                                                                      |
-| **Email All**         | `emailall GROUPNAME`                                                                                                                                                                                |
-| **Exit**              | `exit`                                                                                                                                                                                              |
+| **List**              | `list`                                                                                                                                                                                                       |
+| **Edit**              | `edit INDEX [o/OCCUPATION] [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [tut/TUTORIAL] [t/TAG]…​`<br> e.g.,`edit 2 n/James Lee e/jameslee@example.com`                                                                |
+| **Delete**            | `delete INDEX [OPTIONAL PREFIX/]`<br> e.g., `delete 3`,`delete 3 p/`                                                                                                                                         |
+| **Clear**             | `clear`                                                                                                                                                                                                      |
+| **Undo**              | `undo`                                                                                                                                                                                                       |
+| **Sort**              | `sort FIELD_PREFIX/` <br> e.g., `sort n/`                                                                                                                                                                    |
+| **Find**              | `find KEYWORD` <br> e.g., `find John / find J`                                                                                                                                                               |
+| **Add To Group**      | `addtogroup INDEX GROUP`                                                                                                                                                                                     |
+| **Ungroup**           | `ungroup INDEX GROUP`                                                                                                                                                                                        |
+| **Open Group Window** | `group GROUPNAME`                                                                                                                                                                                            |
+| **Favorite**          | `fav INDEX`                                                                                                                                                                                                  |
+| **Include**           | `include INDEX s/SOCIAL #/SOCIAL_INFO`                                                                                                                                                                       |
+| **Exclude**           | `exclude INDEX s/SOCIAL`                                                                                                                                                                                     |
+| **Prefer**            | `prefer INDEX s/SOCIAL`                                                                                                                                                                                      |
+| **Open**              | `open INDEX s/SOCIAL`                                                                                                                                                                                        |
+| **Social**            | `social SOCIAL`                                                                                                                                                                                              |                                                                                                                                                                      |
+| **Email All**         | `emailall GROUPNAME`                                                                                                                                                                                         |
+| **Exit**              | `exit`                                                                                                                                                                                                       |
+
+
+## Glossary
+
+### Alphanumeric
+- Words containing Alphabet letters and/or numbers only.
+
+### CLI
+- Command Line Interface. Click [here](https://www.hostinger.com/tutorials/what-is-cli) to learn more.
+
+### Command
+- An instruction you input for the application to execute.
+
+### GUI
+- Graphical User Interface. Click [here](https://www.hostinger.com/tutorials/what-is-cli) to learn more about the difference between CLI and GUI.
+
+### Index
+- The position of a contact in the list. See [Layout](#layout).
+
+### JAR
+- JAR stands for Java Archive and is used to store the files to run **uNivUSal**. You can double-click on JAR files to run it.
+
+### JSON File
+- JSON stands for JavaScript Object Notation and is used for storing your data in **uNivUSal**. Click [here](https://en.wikipedia.org/wiki/JSON) to learn more.
+
+### OS
+- OS stands for Operating System. **uNivUSal** can be run on OS such as Linux, macOS, and Windows.
+
+### NUS
+- National University of Singapore.
+
+### SoC
+- School of Computing
