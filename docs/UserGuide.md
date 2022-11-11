@@ -362,7 +362,7 @@ Examples:
 
 ### g. Sort entries by field : `sort FIELD_PREFIX/` e.g. `sort n/`
 
-As your contact list in uNivUSal grows, you might find it hard to keep track of all your contacts. When you are looking
+As your contact list in **uNivUSal** grows, you might find it hard to keep track of all your contacts. When you are looking
 to organize your contacts, the `sort` command will help you do just that!
 
 Sorts your entries easily in **uNivUSal** by specific field [prefix](#prefix) in an ascending manner. Current fields implemented are:
@@ -400,7 +400,7 @@ You may then modify this command to your needs.
 
 ### b. Add a person to favorite : `fav`
 
-Thinking of a group of people important to you? Or perhaps a group of people you would want to easily find in uNivUSal?
+Thinking of a group of people important to you? Or perhaps a group of people you would want to easily find in **uNivUSal**?
 The `fav` command is here to assist you! `fav` allows you to add the specified person to your `favorite` group.
 
 Format: `fav INDEX`
@@ -668,7 +668,7 @@ Format: `exit`
 **uNivUSal** data are saved as a [JSON](https://en.wikipedia.org/wiki/JSON) file `[JAR file location]/data/univusal.json`. Advanced users are welcome to update data directly by editing that data file.
 
 <div markdown="span" class="alert alert-warning">:exclamation: **Caution:**
-If your changes to the data file makes its format invalid, **uNivUSal** will discard all data and start with an empty data file at the next run.
+If your changes to the data file makes its format invalid, uNivUSal will discard all data and start with an empty data file at the next run.
 </div>
 
 ## Archiving data files `[coming in v2.0]`
@@ -696,7 +696,7 @@ If your computer is not running Java 11, you can install it [here](https://www.o
 
 ## Cosmetics <br>
 **Q**: Can I set my own images for certain contacts?<br>
-**A**: Unfortunately not in this version of uNivUSal, although this is a feature we are aiming to roll out in the near future!
+**A**: Unfortunately not in this version of **uNivUSal**, although this is a feature we are aiming to roll out in the near future!
 
 
 --------------------------------------------------------------------------------------------------------------------
