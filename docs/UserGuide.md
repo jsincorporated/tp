@@ -104,7 +104,7 @@ Otherwise, you can install it [here](https://www.oracle.com/java/technologies/ja
 
    ![InstallationJarFile](images/InstallationJarFile.png)<br>
 
-3. Copy and move the file to the folder you want to use as the _home folder_ for your **uNivUSal**.
+3. Copy and move the file to the folder you want to use as the _home folder_ for your **uNivUSal**. If you are unsure, you can refer to [this](https://www.digitaltrends.com/computing/how-to-create-folder-on-desktop/#:~:text=Create%20a%20folder%20on%20a%20Windows%20desktop,-Creating%20a%20folder&text=Step%201%3A%20Right%2Dclick%20a,a%20name%20of%20your%20own.)
 
 4. Double-click the file to start the app. The GUI similar to the image below should appear in a few seconds.
 Note how the app contains some sample data.
