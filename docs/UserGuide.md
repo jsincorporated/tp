@@ -101,7 +101,7 @@ Note how the app contains some sample data.<br>
 5. Type the command in the command box and press Enter to execute it. e.g. typing **`help`** and pressing Enter will
 open the help window.
 
-6. Refer to the ([Basic Features](#basic-commands), [Enhanced Features](#enhanced-commands), [General App Features](#general-app-commands)) below for details of each command.
+6. Refer to the [Basic Commands](#basic-commands), [Enhanced Commands](#enhanced-commands), [General App Commands](#general-app-commands) below for details of each command.
 <div style="page-break-after: always;"></div>
 
 ### Layout
@@ -148,9 +148,6 @@ Want to know more about our social feature? Head over to parts [g](#g-add-a-pers
 <div markdown="block" class="alert alert-info">
 
 **:information_source: Notes about the command format when using CLI before you start using uNivUSal:**<br>
- 
-* Prefixes are the different fields of your input.
- e.g. `o/`, `n/`, `p/`, `e/`, `tut/`, `a/`, `t/`, `s/` and `#/`, are the different prefixes used in **uNivUSal**, you will find out more about the different prefixes as you go through this guide.
 
 * Words in `UPPER_CASE` are the parameters to be supplied by the user.<br>
   e.g. in `add n/NAME`, `NAME` is a parameter which can be used as `add n/John Doe`.
@@ -755,6 +752,12 @@ If your computer is not running Java 11, you can install it [here](https://www.o
 
 ### NUS
 - National University of Singapore.
+
+### Person Fields
+- The fields of a person are their details, such as `NAME`, `OCCUPATION`, `PHONE`, `EMAIL` etc.
+
+### Prefix
+- Prefixes are used to differentiate the person fields of your input. `o/`, `n/`, `p/`, `e/`, `tut/`, `a/`, `t/`, `s/` and `#/`, are the different prefixes used in **uNivUSal**.
 
 ### SoC
 - School of Computing
