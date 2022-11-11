@@ -676,7 +676,7 @@ Examples:
 
 ### d. Exiting the program : `exit`
 
-Exits the program.
+Exits **uNivUSal**.
 
 Format: `exit`
 
