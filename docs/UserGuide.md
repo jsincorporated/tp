@@ -217,6 +217,8 @@ Example : `t/classmate friend`
 
 <div style="page-break-after: always;"></div>
 
+--------------------------------------------------------------------------------------------------------------------
+
 ## Basic Commands
 
 At this point, you should be ready to explore the commands you can use in **uNivUSal**. This section will provide you with
@@ -324,6 +326,8 @@ Examples:
 
 <div style="page-break-after: always;"></div>
 
+--------------------------------------------------------------------------------------------------------------------
+
 ## Enhanced Commands
 
 Ready to get more out of **uNivUSal**? Here are the enhanced features you can experiment on to enhance your **uNivUSal** experience! <br>
@@ -350,7 +354,6 @@ Examples:
 * `fav 1` will add 1st person in the current list to `favorite`.
 
 ![Fav](images/Fav.jpg)
-
 ### c. Adding a person to a group : `addtogroup`
 
 Adds the specified person to the specified group.
@@ -547,6 +550,8 @@ Examples:
 ![socialAfter](images/SocialAfter.png)
 
 <div style="page-break-after: always;"></div>
+
+--------------------------------------------------------------------------------------------------------------------
 
 ## General App Commands
 
