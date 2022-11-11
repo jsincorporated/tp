@@ -468,7 +468,7 @@ Examples:
 
 ### g. Add a person's socials : `include`
 
-You can add a valid SOCIAL to an existing person in **uNivUSal** as shown below.
+You can add a valid `SOCIAL` to an existing person in **uNivUSal** as shown below.
 
 General format: `include INDEX s/SOCIAL #/SOCIAL_INFO`
 
@@ -511,7 +511,8 @@ Examples:
 
 ### h. Delete a person's socials : `exclude`
 
-You can delete a specified person's socials from **uNivUSal** as shown below.
+If you added the wrong socials, or a particular contact changed one of their social media information.
+You can easily delete a specified person's socials from **uNivUSal** as shown below.
 
 Format: `exclude INDEX s/SOCIAL`
 
@@ -534,7 +535,8 @@ Examples:
 
 ### i. Set a person's preferred social media : `prefer`
 
-You can set a specified person's preferred social media in **uNivUSal** as shown below.
+If your contact has a specific social media they prefer to use. How do you remember all the different preferred mode of communication of all your contacts?
+Well, you can easily set a specified person's preferred social media in **uNivUSal** as shown below.
 
 Format: `prefer INDEX s/SOCIAL`
 
@@ -558,7 +560,8 @@ Examples:
 
 ### j. Open a person's social media : `open`
 
-You can open a specified person's social media in **uNivUSal** as shown below.
+After you have added all the social media information of your contacts. How do you access all the information?
+You can easily open a specified person's social media in your default web browser as shown below.
 
 Format: `open INDEX s/SOCIAL`
 
