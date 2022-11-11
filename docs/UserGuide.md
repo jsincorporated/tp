@@ -90,7 +90,7 @@ Otherwise, you can install it [here](https://www.oracle.com/java/technologies/ja
 
 2. Download the latest [`uNivUSal.jar`](https://github.com/AY2223S1-CS2103T-T08-3/tp/releases/tag/v1.4.0).
 
-   ![InstallationJarFile](images/InstallationJarFile.png)
+   ![InstallationJarFile](images/InstallationJarFile.png)<br>
 
 3. Copy and move the file to the folder you want to use as the _home folder_ for your **uNivUSal**.
 
