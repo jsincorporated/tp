@@ -259,11 +259,11 @@ Examples:
 and `janedoe@example.com` respectively.
 * `edit 2 n/Betsy Crower t/` Edits the name of the 2nd person to be `Betsy Crower` and **clears** all existing tags.
 
-### c. Deleting a person : `delete`
+#### c. Deleting a person: `delete`
 
-Deletes the specified person from **uNivUSal**.
+Deletes the specified person or specified person's field from **uNivUSal**.
 
-Format: `delete INDEX {OPTIONAL PREFIX/}`
+Format: `delete INDEX [PREFIX/]`
 
 * Deletes the person at the specified `INDEX`.
 * The index refers to the index number shown in the displayed person list.
@@ -271,9 +271,17 @@ Format: `delete INDEX {OPTIONAL PREFIX/}`
 * If `PREFIX/` is provided, deletes the specified field of the person at the specified `INDEX`
 
 Examples:
-* `list` followed by `delete 2` deletes the 2nd person in **uNivUSal**.
-* `find Betsy` followed by `delete 1` deletes the 1st person in the results of the `find` command.
-* `list` followed by `delete 2 p/` deletes the 2nd person's phone number in **uNivUSal**.
+* Before `delete 1`, displays the current list.
+
+![UiBefore](images/Ui.png)
+
+* After `delete 1`, the first person (Alex Yeoh) is removed from the list.
+
+![DeleteGeneralAfter](images/DeleteGeneralAfter.png)
+
+* After `delete 1 p/`, the first person (Alex Yeoh) has his phone number removed.
+
+![DeleteSpecificAfter](images/DeleteSpecificAfter.png)
 
 ### d. Listing all persons : `list`
 
