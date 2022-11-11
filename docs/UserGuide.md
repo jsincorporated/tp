@@ -2,7 +2,7 @@
 layout: page
 title: User Guide
 ---
-## Welcome to uNivUSal's User Guide!
+## Welcome to **uNivUSal's** User Guide!
 
 Are you a **CS2103T student, TA, or professor**? 
 
@@ -348,8 +348,8 @@ Examples:
 ## Enhanced Commands
 
 Ready to get more out of **uNivUSal**? Here are the enhanced features you can experiment on to enhance your **uNivUSal** experience! <br>
-Enhanced features **b to f** are the groups feature of uNivUSal. <br>
-Enhanced features **g to k** are the social features of uNivUSal. <br>
+Enhanced features **b to f** are the groups feature of **uNivUSal**. <br>
+Enhanced features **g to k** are the social features of **uNivUSal**. <br>
 
 ### a. Quickly edit a person's features
 
@@ -373,7 +373,7 @@ Examples:
 ![Fav](images/Fav.jpg)
 ### c. Adding a person to a group : `addtogroup`
 
-Adds the specified person to the specified group.
+When you're ready to start creating groups and adding people to them, use the `addtogroup` command! If the group does not exist yet, it creates it for you.
 
 Format: `addtogroup INDEX GROUP`
 
@@ -388,7 +388,7 @@ Examples:
 
 ### d. Removing a person from a group : `ungroup`
 
-Removes the specified person from the specified group.
+If you want to remove a person from a group, simply `ungroup` them!
 
 Format: `ungroup INDEX GROUP`
 
@@ -402,7 +402,7 @@ Examples:
 
 ### e. Opening a group window : `group`
 
-Open a new window containing the persons in the group.
+To see your `friends`, `colleagues`,  or any other groups, use the `group` command to open a new window where you can easily reach them!
 
 Format: `group GROUPNAME`
 
@@ -416,7 +416,7 @@ Examples:
 
 ### f. Email all persons in a group : `emailall`
 
-Open an email link to all persons in the specified group.
+What if you want to send an email to all the members of a group? With the `emailall` command, you can do just that!
 
 Format: `emailall GROUPNAME`
 
