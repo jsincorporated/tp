@@ -23,7 +23,7 @@ In this user guide, you can find everything you need to know about **uNivUSal** 
 
 If this is your first time using **uNivUSal**, welcome! Head over to the [Quick start](#quick-start) to get started using **uNivUSal**!
 
-If this is not your first time, and you have a specific feature you would like to know more about, checkout out our [Table of Contents](#table-of-contents) to find what you are looking for!
+If this is not your first time, and you have a specific feature you would like to know more about, checkout our [Table of Contents](#table-of-contents) to find what you are looking for!
 
 Refer to the table below for the meanings of symbols used:
 
