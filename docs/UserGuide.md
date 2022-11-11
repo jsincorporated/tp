@@ -448,6 +448,7 @@ General format: `include INDEX s/SOCIAL #/SOCIAL_INFO`
   * Email
   * Instagram username
 * `SOCIAL` is case-insensitive
+* `INDEX` refers to the position of the contact in the list. See [Layout](#layout).
 
 Format(WHATSAPP): `include INDEX s/WHATSAPP #/WHATSAPP_PHONE_NUMBER`
 
@@ -486,6 +487,7 @@ Format: `exclude INDEX s/SOCIAL`
   * Instagram
   * Preferred
 * `SOCIAL` is case-insensitive
+* `INDEX` refers to the position of the contact in the list. See [Layout](#layout).
 
 Examples:
 * `exclude 1 s/TELEGRAM` deletes the telegram username of the 1st person in the contact list.
@@ -507,6 +509,7 @@ Format: `prefer INDEX s/SOCIAL`
   * Email
   * Instagram
 * `SOCIAL` is case-insensitive
+* `INDEX` refers to the position of the contact in the list. See [Layout](#layout).
 
 Examples:
 * `prefer 1 s/TELEGRAM` sets telegram as the preferred social media of the first person in the contact list.
@@ -531,6 +534,7 @@ Format: `open INDEX s/SOCIAL`
   * Instagram
   * Preferred (the person's currently preferred social media that has been set)
 * `SOCIAL` is case-insensitive
+* `INDEX` refers to the position of the contact in the list. See [Layout](#layout).
 
 Examples:
 * `open 1 s/WHATSAPP` opens the link to the whatsapp of the first person in the contact list.
@@ -665,3 +669,33 @@ _Details coming soon ..._
 
 
 ## Glossary
+
+### Alphanumeric
+- Words containing Alphabet letters and/or numbers only.
+
+### CLI
+- Command Line Interface. Click [here](https://www.hostinger.com/tutorials/what-is-cli) to learn more.
+
+### Command
+- An instruction you input for the application to execute.
+
+### GUI
+- Graphical User Interface. Click [here](https://www.hostinger.com/tutorials/what-is-cli) to learn more about the difference between CLI and GUI.
+
+### Index
+- The position of a contact in the list. See [Layout](#layout).
+
+### JAR
+- JAR stands for Java Archive and is used to store the files to run **uNivUSal**. You can double-click on JAR files to run it.
+
+### JSON File
+- JSON stands for JavaScript Object Notation and is used for storing your data in **uNivUSal**.
+
+### OS
+- OS stands for Operating System. **uNivUSal** can be run on OS such as Linux, macOS, and Windows.
+
+### NUS
+- National University of Singapore.
+
+### SoC
+- School of Computing
