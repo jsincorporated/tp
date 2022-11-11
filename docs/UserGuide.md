@@ -309,16 +309,20 @@ Format: `sort FIELD_PREFIX/`
 * Displays sorted list.
 
 Examples:
-* `sort n/` displays the entries sorted by name alphabetically.
-* `sort e/` displays the entries sorted by email address alphabetically.
-* `sort p/` displays the entries sorted by phone number in an ascending manner.
+* Before `sort n/`, displays the current unsorted list.
+
+![SortBefore](images/SortBefore.jpg)
+
+* After `sort n/`, names are alphabetically sorted.
+
+![SortAfter](images/SortAfter.jpg)
 
 <div style="page-break-after: always;"></div>
 
 ### Enhanced Features
 
 Ready to get more out of **uNivUSal**? Here are the enhanced features you can experiment on to enhance your **uNivUSal** experience! <br>
-Enhanced features **c to f** are the groups feature of uNivUSal. <br>
+Enhanced features **b to f** are the groups feature of uNivUSal. <br>
 Enhanced features **g to k** are the social features of uNivUSal. <br>
 
 #### a. Quickly edit a person's features
@@ -337,6 +341,8 @@ Format: `fav INDEX`
 
 Examples:
 * `fav 1` will add 1st person in the current list to `favorite`.
+
+![Fav](images/Fav.jpg)
 
 #### c. Adding a person to a group : `addtogroup`
 
@@ -525,7 +531,13 @@ Format: `social SOCIAL`
 * `SOCIAL` is case-insensitive
 
 Examples:
-* `social telegram` will display a filtered list of persons with `telegram` as their preferred social media.
+* Before `social telegram`
+
+![socialBefore](images/SocialBefore.jpg)
+
+* After `social telegram`, you will see a filtered list of persons with `telegram` as their preferred social media.
+
+![socialAfter](images/SocialAfter.png)
 
 <div style="page-break-after: always;"></div>
 
