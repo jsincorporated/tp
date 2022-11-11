@@ -95,7 +95,7 @@ Otherwise, you can install it [here](https://www.oracle.com/java/technologies/ja
 3. Copy and move the file to the folder you want to use as the _home folder_ for your **uNivUSal**.
 
 4. Double-click the file to start the app. The GUI similar to the image below should appear in a few seconds.
-Note how the app contains some sample data.<br>
+Note how the app contains some sample data.
    ![Ui](images/Ui.png)
 
 5. Type the command in the command line and press Enter to execute it. e.g. typing **`help`** and pressing Enter will
@@ -319,15 +319,12 @@ Format: `delete INDEX [PREFIX/]`
 
 Examples:
 * Before `delete 1`, you will see the current list.
-
 ![UiBefore](images/Ui.png)
 
 * After `delete 1`, the first person (Alex Yeoh) is removed from the list.
-
 ![DeleteGeneralAfter](images/DeleteGeneralAfter.png)
 
 * After `delete 1 p/`, the first person (Alex Yeoh) has his phone number removed.
-
 ![DeleteSpecificAfter](images/DeleteSpecificAfter.png)
 
 ### d. Listing all persons : `list`
