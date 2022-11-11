@@ -259,7 +259,7 @@ the basic commands to get you started using **uNivUSal**.
 
 ### a. Adding a person: `add`
 
-Adds a person to **uNivUSal**.
+Let's start with our basic command, `add`! This command allows you to add a person to **uNivUSal**.
 
 Format: `add o/OCCUPATION n/NAME [p/PHONE_NUMBER] [e/EMAIL] [tut/TUTORIAL] [a/ADDRESS] [t/TAG]…​`
 
@@ -277,7 +277,8 @@ Examples:
 
 ### b. Editing a person : `edit`
 
-Edits an existing person in **uNivUSal**.
+Entered a typo you want to fix? Or do you simply want to update some parts of your contacts? The `edit` command is here
+to help you edit an existing person in **uNivUSal**.
 
 Format: `edit INDEX [o/OCCUPATION] [n/NAME] [p/PHONE] [e/EMAIL] [tut/TUTORIAL] [t/TAG]…​`
 
@@ -295,17 +296,17 @@ and `janedoe@example.com` respectively.
 
 #### c. Deleting a person: `delete`
 
-Now you might have added a person with many incorrect fields, so to remove them use the `delete` command to delete the specified person or specified person's field from **uNivUSal**.
+Now you might have added a person with many incorrect fields, and would rather remove them instead. So to delete them from **uNivUSal**, use the `delete` command!
 
 Format: `delete INDEX [PREFIX/]`
 
 * Deletes the person at the specified `INDEX`.
 * The index refers to the index number shown in the displayed person list.
 * The index **must be a positive integer** 1, 2, 3, …​
-* If `PREFIX/` is provided, deletes the specified field of the person at the specified `INDEX`
+* If [`PREFIX/`](#prefix) is provided, deletes the specified field of the person at the specified `INDEX`
 
 Examples:
-* Before `delete 1`, displays the current list.
+* Before `delete 1`, you will see the current list.
 
 ![UiBefore](images/Ui.png)
 
@@ -319,13 +320,14 @@ Examples:
 
 ### d. Listing all persons : `list`
 
-Shows a list of all persons in uNivUSal.
+After experimenting with other commands, you might want to check back on all the people you currently have in **uNivUSal**.
+To do so, simply type in the command `list`!
 
 Format: `list`
 
 ### e. Clearing all entries : `clear`
 
-Clears all entries from **uNivUSal**.
+If you feel like starting with a clean page, do the `clear` command which clears all entries from **uNivUSal**.
 
 Format: `clear`
 * Deletes every person in **uNivUSal**.
@@ -356,7 +358,7 @@ Examples:
 As your contact list in uNivUSal grows, you might find it hard to keep track of all your contacts. When you are looking
 to organize your contacts, the `sort` command will help you do just that!
 
-Sorts your entries easily in **uNivUSal** by specific field prefix in an ascending manner. Current fields implemented are:
+Sorts your entries easily in **uNivUSal** by specific field [prefix](#prefix) in an ascending manner. Current fields implemented are:
 1. Name `n/`
 2. Email address `e/`
 3. Phone `p/`
@@ -511,7 +513,7 @@ Examples:
 
 ### h. Delete a person's socials : `exclude`
 
-You can delete a specified person's socials from **uNivUSal** as shown below.
+Made a mistake in entering a person's socials? You can delete a specified person's socials from **uNivUSal** as shown below.
 
 Format: `exclude INDEX s/SOCIAL`
 
@@ -534,7 +536,8 @@ Examples:
 
 ### i. Set a person's preferred social media : `prefer`
 
-You can set a specified person's preferred social media in **uNivUSal** as shown below.
+Confused with all the social medias a person have? Want to know which social media they prefer? The `prefer` command is
+here for you! You can set a specified person's preferred social media in **uNivUSal** as shown below.
 
 Format: `prefer INDEX s/SOCIAL`
 
@@ -558,7 +561,7 @@ Examples:
 
 ### j. Open a person's social media : `open`
 
-You can open a specified person's social media in **uNivUSal** as shown below.
+Aside from storing your contact's socials, you can also open their social media through **uNivUSal** as shown below!
 
 Format: `open INDEX s/SOCIAL`
 
@@ -637,7 +640,7 @@ Format: `history`
 
 ### c. Undo last modification : `undo`
 
-Undoes the last command that modifies the address book.
+Entered a command you did not want to do? Simply `undo` your latest command!
 
 Format: `undo`
 * Undoes the last modifying command.
