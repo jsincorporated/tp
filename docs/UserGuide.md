@@ -72,7 +72,9 @@ Refer to the table below for the meanings of symbols used:
     2. [Viewing history](#b-viewing-history--history) : `history`
     3. [Undoing last command](#c-undo-last-modification--undo) : `undo`
     4. [Exiting the app](#d-exiting-the-program--exit) : `exit`
+* [FAQ](#faq)
 * [Command summary](#command-summary)
+* [Glossary](#glossary)
 
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
@@ -348,8 +350,8 @@ Examples:
 ## Enhanced Commands
 
 Ready to get more out of **uNivUSal**? Here are the enhanced features you can experiment on to enhance your **uNivUSal** experience! <br>
-Enhanced features **b to f** are the groups feature of **uNivUSal**. <br>
-Enhanced features **g to k** are the social features of **uNivUSal**. <br>
+Enhanced features [**c to f**](#c-adding-a-person-to-a-group--addtogroup) are the groups feature of **uNivUSal**. <br>
+Enhanced features [**g to k**](#g-add-a-persons-socials--include) are the social features of **uNivUSal**. <br>
 
 ### a. Quickly edit a person's features
 
@@ -660,3 +662,6 @@ _Details coming soon ..._
 | **Social**            | `social SOCIAL`                                                                                                                                                                                              |                                                                                                                                                                      |
 | **Email All**         | `emailall GROUPNAME`                                                                                                                                                                                         |
 | **Exit**              | `exit`                                                                                                                                                                                                       |
+
+
+## Glossary
