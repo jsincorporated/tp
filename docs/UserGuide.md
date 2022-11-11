@@ -667,10 +667,29 @@ _Details coming soon ..._
 
 ## FAQ
 
+##General <br>
 **Q**: How do I transfer my data to another Computer?<br>
-**A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous **uNivUSal** home folder.
+**A**: You can install **uNivUSal** in the other computer and replace the empty data file it creates with the file that contains the data of your previous **uNivUSal** home folder.
 
-_Details coming soon ..._
+**Q**: How do I make sure that my computer is running Java 11?<br>
+**A**: Open the Terminal app built inside your computer (For Windows user, you can also use Powershell) and run the following command: java --version. The version should then be displayed on the application. If your screen is displaying java 11.x.x where x can be any number, then your computer is running Java 11.
+
+**Q**: I cannot see any data when I first open **uNivUSal**, what do I do?<br>
+**A**: Delete all the files under `[JAR file location]/data` and restart the jar application. You should be able to see some sample data now.
+If your computer is not running Java 11, you can install it [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html). Please install according to the operating system that you are using (any of the options are fine, as they are all Java 11).
+
+**Q**: Do I need an internet connection to run the app?<br>
+**A**: No! **uNivUSal** stores your data offline so there is no need to worry about needing a connection to run.
+
+
+
+##Cosmetics <br>
+**Q**: Can I set my own images for certain contacts?<br>
+**A**: Unfortunately not in this version of uNivUSal, although this is a feature we are aiming to roll out in the near future! 
+
+##
+
+
 
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
