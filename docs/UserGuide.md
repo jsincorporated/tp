@@ -403,7 +403,9 @@ Format: `fav INDEX`
 * The index **must be a positive integer** 1, 2, 3, …​
 
 Examples:
-* `fav 1` will add 1st person in the current list to `favorite`.
+* `fav 1` will add 1st person in the current list to `favorite`. To open the `favorite` group, enter the `group favorite`.
+You should see a new window pop up like the image below. Refer to [`group`](#e-opening-a-group-window--group) for more
+information on accessing your `favorite` group.
 
 ![Fav](images/Fav.png)
 
