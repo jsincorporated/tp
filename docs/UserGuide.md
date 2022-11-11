@@ -14,11 +14,11 @@ If so, **uNivUSal** is **the** contact management app for you! With **uNivUSal**
 
 **uNivUSal** is a **desktop app for managing contacts catered to CS2103T students, TAs, and professors**, optimized for use
 via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI). 
->:bulb: Confused over what CLI & GUI is? [here's](https://www.hostinger.com/tutorials/what-is-cli) a link to get you up to speed!
+>:bulb: Confused over what CLI & GUI is? [Here's](https://www.hostinger.com/tutorials/what-is-cli) a link to get you up to speed!
 
 In this user guide, you can find everything you need to know about **uNivUSal** starting with how to get started using **uNivUSal**, followed by instructions on how to use **uNivUSal** and all the exciting features you can explore.
 
->:information_source: If you are a developer, you might want to explore our [Developer Guide](https://ay2223s1-cs2103t-t08-3.github.io/tp/DeveloperGuide.html) instead.
+>:bulb: If you are a developer, you might want to explore our [Developer Guide](https://ay2223s1-cs2103t-t08-3.github.io/tp/DeveloperGuide.html) instead.
 
 ## How to use **uNivUSal**'s User Guide?
 
@@ -32,11 +32,13 @@ Refer to the table below for the meanings of symbols used:
 |-----------------------------------|--------------------------------------------------|
 | :information_source: **Notes**                 | Information that you **must** pay attention to.                                                                                                  |
 | :bulb: **Tip**                                 | Information that you may find helpful.                                                                                                          |
-| :exclamation: **Caution**                      | Information that you need to know about the  section you are currrently looking at |
+| :exclamation: **Warning**                      | Information that you should be cautious about |
 
 ## Table of Contents
 * [Quick start](#quick-start)
-* [Features](#features)
+  * [Installation](#installation)
+  * [Layout](#layout)
+  * [Command Format](#command-format)
   * [Person Fields](#person-fields):
     1. [occupation](#a-occupation--o) : `o/`
     2. [name](#b-name--n) : `n/`
@@ -45,7 +47,7 @@ Refer to the table below for the meanings of symbols used:
     5. [tutorial](#e-tutorial--tut) : `tut/`
     6. [address](#f-address--a) : `a/`
     7. [tags](#g-tags--t) : `t/`
-  * [Basic Features](#basic-features):
+* [Basic Commands](#basic-commands):
     1. [Adding a person](#a-adding-a-person-add) : `add`
     2. [Editing a person](#b-editing-a-person--edit) : `edit`
     3. [Deleting a person](#c-deleting-a-person--delete) : `delete`
@@ -53,7 +55,7 @@ Refer to the table below for the meanings of symbols used:
     5. [Clearing all entries](#e-clearing-all-entries--clear) : `clear`
     6. [Find a person](#f-find-entries-by-keywords-of-fields--find-keyword-eg-find-john) : `find`
     7. [Sorting entries by field](#g-sort-entries-by-field--sort-field_prefix-eg-sort-n) : `sort`
-  * [Enhanced Features](#enhanced-features):
+* [Enhanced Commands](#enhanced-commands):
     1. [Quickly edit a person](#a-quickly-edit-a-persons-features)
     2. [Add a person to favorite](#b-add-a-person-to-favorite--fav) : `fav`
     3. [Add a person to a group](#c-adding-a-person-to-a-group--addtogroup): `addtogroup`
@@ -65,7 +67,7 @@ Refer to the table below for the meanings of symbols used:
     9. [Set a person's preferred social media](#i-set-a-persons-preferred-social-media--prefer) : `prefer`
     10. [Open a person's social media](#j-open-a-persons-social-media--open) : `open`
     11. [Find persons with a preferred social media](#k-find-persons-with-a-preferred-social-media--social) : `social`
-  * [General App Features](#general-app-features):
+* [General App Commands](#general-app-commands):
     1. [Viewing help](#a-viewing-help--help) : `help`
     2. [Viewing history](#b-viewing-history--history) : `history`
     3. [Undoing last command](#c-undo-last-modification--undo) : `undo`
@@ -76,6 +78,8 @@ Refer to the table below for the meanings of symbols used:
 <div style="page-break-after: always;"></div>
 
 ## Quick start
+
+### Installation 
 
 Before starting on your **uNivUSal** exploration, here's a short guide on **uNivUSal**'s installation.
 
@@ -94,16 +98,16 @@ Note how the app contains some sample data.<br>
 open the help window.
 
 6. Refer to the [Features](#features) ([Basic Features](#basic-features), [Enhanced Features](#enhanced-features), [General App Features](#general-app-features)) below for details of each command.
-
---------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
 
-## Features
+### Layout
 
 In this section, you can explore all of **uNivUSal**'s features. To introduce you to **uNivUSal**'s interface, refer to the
 labelled image below.
 
 ![Format](images/Format.png)
+
+### Command Format
 
 <div markdown="block" class="alert alert-info">
 
@@ -213,12 +217,14 @@ Example : `t/classmate friend`
 
 <div style="page-break-after: always;"></div>
 
-### Basic Features
+--------------------------------------------------------------------------------------------------------------------
+
+## Basic Commands
 
 At this point, you should be ready to explore the commands you can use in **uNivUSal**. This section will provide you with
 the basic commands to get you started using **uNivUSal**.
 
-#### a. Adding a person: `add`
+### a. Adding a person: `add`
 
 Adds a person to **uNivUSal**.
 
@@ -235,7 +241,7 @@ Examples:
 * `add o/STUDENT n/John Doe p/98765432 e/johnd@example.com tut/T08 a/John street, block 123, #01-01`
 * `add o/TA n/Betsy Crowe e/betsycrowe@u.nus.edu`
 
-#### b. Editing a person : `edit`
+### b. Editing a person : `edit`
 
 Edits an existing person in **uNivUSal**.
 
@@ -253,11 +259,11 @@ Examples:
 and `janedoe@example.com` respectively.
 * `edit 2 n/Betsy Crower t/` Edits the name of the 2nd person to be `Betsy Crower` and **clears** all existing tags.
 
-#### c. Deleting a person : `delete`
+#### c. Deleting a person: `delete`
 
-Deletes the specified person from **uNivUSal**.
+Deletes the specified person or specified person's field from **uNivUSal**.
 
-Format: `delete INDEX {OPTIONAL PREFIX/}`
+Format: `delete INDEX [PREFIX/]`
 
 * Deletes the person at the specified `INDEX`.
 * The index refers to the index number shown in the displayed person list.
@@ -265,17 +271,25 @@ Format: `delete INDEX {OPTIONAL PREFIX/}`
 * If `PREFIX/` is provided, deletes the specified field of the person at the specified `INDEX`
 
 Examples:
-* `list` followed by `delete 2` deletes the 2nd person in **uNivUSal**.
-* `find Betsy` followed by `delete 1` deletes the 1st person in the results of the `find` command.
-* `list` followed by `delete 2 p/` deletes the 2nd person's phone number in **uNivUSal**.
+* Before `delete 1`, displays the current list.
 
-#### d. Listing all persons : `list`
+![UiBefore](images/Ui.png)
+
+* After `delete 1`, the first person (Alex Yeoh) is removed from the list.
+
+![DeleteGeneralAfter](images/DeleteGeneralAfter.png)
+
+* After `delete 1 p/`, the first person (Alex Yeoh) has his phone number removed.
+
+![DeleteSpecificAfter](images/DeleteSpecificAfter.png)
+
+### d. Listing all persons : `list`
 
 Shows a list of all persons in uNivUSal.
 
 Format: `list`
 
-#### e. Clearing all entries : `clear`
+### e. Clearing all entries : `clear`
 
 Clears all entries from **uNivUSal**.
 
@@ -283,7 +297,7 @@ Format: `clear`
 * Deletes every person in **uNivUSal**.
 * Only a blank **uNivUSal** will remain.
 
-#### f. Find entries by keywords of fields : `find KEYWORD` e.g. `find John`
+### f. Find entries by keywords of fields : `find KEYWORD` e.g. `find John`
 
 Finds entries in **uNivUSal** that match or contain case-insensitive keyword. Current fields searchable are:
 1. Name
@@ -298,7 +312,7 @@ Examples:
 * `find J` displays the entries filtered by names that contain the case-insensitive KEYWORD `J`.
 * `find 123456` displays the entries filtered by phone numbers that contain the case-insensitive KEYWORD `123456`.
 
-#### g. Sort entries by field : `sort FIELD_PREFIX/` e.g. `sort n/`
+### g. Sort entries by field : `sort FIELD_PREFIX/` e.g. `sort n/`
 
 Sorts entries in **uNivUSal** by specific field prefix in an ascending manner. Current fields implemented are:
 1. Name `n/`
@@ -320,13 +334,15 @@ Examples:
 
 <div style="page-break-after: always;"></div>
 
-### Enhanced Features
+--------------------------------------------------------------------------------------------------------------------
+
+## Enhanced Commands
 
 Ready to get more out of **uNivUSal**? Here are the enhanced features you can experiment on to enhance your **uNivUSal** experience! <br>
 Enhanced features **b to f** are the groups feature of uNivUSal. <br>
 Enhanced features **g to k** are the social features of uNivUSal. <br>
 
-#### a. Quickly edit a person's features
+### a. Quickly edit a person's features
 
 Quickly make small changes to a person by clicking on a person card while the command box is empty.
 This creates an edit command with all the features that person currently has.
@@ -334,7 +350,7 @@ You may then modify this command to your needs.
 
 ![QuickEdit](images/QuickEdit.png)
 
-#### b. Add a person to favorite : `fav`
+### b. Add a person to favorite : `fav`
 
 Adds the specified person to `favorite` group.
 
@@ -346,8 +362,7 @@ Examples:
 * `fav 1` will add 1st person in the current list to `favorite`.
 
 ![Fav](images/Fav.jpg)
-
-#### c. Adding a person to a group : `addtogroup`
+### c. Adding a person to a group : `addtogroup`
 
 Adds the specified person to the specified group.
 
@@ -362,7 +377,7 @@ Examples:
 ![AddToGroupCommmandExample](images/AddToGroupCommmandExample.png)
 
 
-#### d. Removing a person from a group : `ungroup`
+### d. Removing a person from a group : `ungroup`
 
 Removes the specified person from the specified group.
 
@@ -376,7 +391,7 @@ Examples:
 * `ungroup 2 friends` ungroups the 2nd person in the current list from the group `friends`.
 ![UngroupCommmandExample](images/UngroupCommmandExample.png)
 
-#### e. Opening a group window : `group`
+### e. Opening a group window : `group`
 
 Open a new window containing the persons in the group.
 
@@ -390,7 +405,7 @@ Examples:
 ![GroupCommandExample](images/GroupCommandExample.png)
 
 
-#### f. Email all persons in a group : `emailall`
+### f. Email all persons in a group : `emailall`
 
 Open an email link to all persons in the specified group.
 
@@ -405,7 +420,7 @@ Examples:
 ![EmailAllExample2](images/EmailAllExample2.png)
 
 
-#### g. Add a person's socials : `include`
+### g. Add a person's socials : `include`
 
 Adds a valid SOCIAL to an existing person in **uNivUSal**.
 
@@ -447,7 +462,7 @@ Examples:
 > 3. If the person already has an existing email account in **uNivUSal**, it will be added to the social.<br>
 > 4. But the Phone number will not be added as the person's WHATSAPP_PHONE_NUMBER.
 
-#### h. Delete a person's socials : `exclude`
+### h. Delete a person's socials : `exclude`
 
 Deletes the specified person's socials from **uNivUSal**.
 
@@ -469,7 +484,7 @@ Examples:
 * After running the above commands: <br>
   ![ExcludeAfter](images/ExcludeAfter.png)
 
-#### i. Set a person's preferred social media : `prefer`
+### i. Set a person's preferred social media : `prefer`
 
 Set the specified person's preferred social media in **uNivUSal**.
 
@@ -492,7 +507,7 @@ Examples:
 * After running `prefer 1 s/INSTAGRAM`: <br>
   ![PreferInstagram](images/PreferInstagram.png)
 
-#### j. Open a person's social media : `open`
+### j. Open a person's social media : `open`
 
 Open the specified person's social media in **uNivUSal**.
 
@@ -523,7 +538,7 @@ Examples:
 > Clicking the social media boxes of the contacts will open the link to the social media of the person.
 > Try it out!
 
-#### k. Find persons with a preferred social media : `social`
+### k. Find persons with a preferred social media : `social`
 
 Filters the current list to people who set their preferred social media to the input.
 
@@ -546,11 +561,13 @@ Examples:
 
 <div style="page-break-after: always;"></div>
 
-### General App Features
+--------------------------------------------------------------------------------------------------------------------
+
+## General App Commands
 
 Worried that you'd forget a command or typed in the wrong command? Our general app features is here to help you get through these worries!
 
-#### a. Viewing help : `help`
+### a. Viewing help : `help`
 
 Shows a message explaining the basic features of the app and also provides a link to the website.
 
@@ -558,7 +575,7 @@ Shows a message explaining the basic features of the app and also provides a lin
 
 Format: `help`
 
-#### b. Viewing history : `history`
+### b. Viewing history : `history`
 
 Shows up to the previous five commands typed by the user.
 
@@ -566,7 +583,7 @@ Shows up to the previous five commands typed by the user.
 
 Format: `history`
 
-#### c. Undo last modification : `undo`
+### c. Undo last modification : `undo`
 
 Undoes the last command that modifies the address book.
 
@@ -575,17 +592,17 @@ Format: `undo`
 * Ignores modifying commands if they don't modify the address book.
 * Will cancel out when trying to undo an undo command. This means that you cannot undo the last two actions.
 
-#### d. Exiting the program : `exit`
+### d. Exiting the program : `exit`
 
 Exits the program.
 
 Format: `exit`
 
-### Saving the data
+## Saving the data
 
 **uNivUSal** data are saved in the hard disk automatically after any command that changes the data. So, you do not need to save manually.
 
-### Editing the data file
+## Editing the data file
 
 **uNivUSal** data are saved as a JSON file `[JAR file location]/data/univusal.json`. Advanced users are welcome to update data directly by editing that data file.
 
@@ -593,7 +610,7 @@ Format: `exit`
 If your changes to the data file makes its format invalid, **uNivUSal** will discard all data and start with an empty data file at the next run.
 </div>
 
-### Archiving data files `[coming in v2.0]`
+## Archiving data files `[coming in v2.0]`
 
 _Details coming soon ..._
 
