@@ -98,8 +98,9 @@ Otherwise, you can install it [here](https://www.oracle.com/java/technologies/ja
 Note how the app contains some sample data.<br>
    ![Ui](images/Ui.png)
 
-5. Type the command in the command box and press Enter to execute it. e.g. typing **`help`** and pressing Enter will
+5. Type the command in the command line and press Enter to execute it. e.g. typing **`help`** and pressing Enter will
 open the help window.
+>:bulb: Unsure of what a command line is? Refer to our Layout section [here](#layout)
 
 6. Refer to the [Basic Commands](#basic-commands), [Enhanced Commands](#enhanced-commands), [General App Commands](#general-app-commands) below for details of each command.
 <div style="page-break-after: always;"></div>
