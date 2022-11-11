@@ -632,7 +632,7 @@ Worried that you'd forget a command or typed in the wrong command? Our general a
 
 Shows a message explaining the basic features of the app and also provides a link to the website.
 
-![help message](images/helpMessage.png)
+![help message](images/HelpMessage.png)
 
 Format: `help`
 
