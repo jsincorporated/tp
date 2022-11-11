@@ -24,7 +24,19 @@ In this user guide, you can find everything you need to know about **uNivUSal** 
 
 If this is your first time using **uNivUSal**, welcome! Head over to the [Quick start](#quick-start) to get started!
 
-If this is not your first time, and you have a specific feature you would like to know more about, checkout our [Table of Contents](#table-of-contents) to find what you are looking for!
+If this is not your first time, and you have a specific feature you would like to know more about, check out our [Command Summary](#command-summary) or [Table of Contents](#table-of-contents) to find what you are looking for!
+
+Have a question regarding the app? You might find the answer in the [FAQ](#faq) section.
+
+You can also refer to the [Glossary](#glossary) section for definitions of commonly used terms in uNivUSal.
+
+## Notations used in this guide
+
+If you are wondering why our guide uses different stylings, here is why:
+1. Headers in orange are to represent the different sections of the guide.
+2. **Bolded words** are words/phrases we want to draw attention to you.
+3. [Words in blue] are links that will provide you with helpful information. 
+
 
 Refer to the table below for the meanings of symbols used:
 
@@ -342,7 +354,7 @@ Format: `clear`
 * Deletes every person in **uNivUSal**.
 * Only a blank **uNivUSal** will remain.
 
-### f. Find entries by keywords of fields : `find KEYWORD` e.g. `find John`
+### f. Find entries by keywords of fields : `find KEYWORD` e.g. `find Alex`
 
 With so many contacts, it can be frustrating to scroll through them all. With the help of the `find` command, you can find entries in **uNivUSal** that match or contain case-insensitive keyword. Current fields searchable are:
 1. Name
@@ -362,7 +374,7 @@ Examples:
 
 ### g. Sort entries by field : `sort FIELD_PREFIX/` e.g. `sort n/`
 
-As your contact list in **uNivUSal** grows, you might find it hard to keep track of all your contacts. When you are looking
+As your contact list in uNivUSal grows, you might find it hard to keep track of all your contacts. When you are looking
 to organize your contacts, the `sort` command will help you do just that!
 
 Sorts your entries easily in **uNivUSal** by specific field [prefix](#prefix) in an ascending manner. Current fields implemented are:
@@ -400,7 +412,7 @@ You may then modify this command to your needs.
 
 ### b. Add a person to favorite : `fav`
 
-Thinking of a group of people important to you? Or perhaps a group of people you would want to easily find in **uNivUSal**?
+Thinking of a group of people important to you? Or perhaps a group of people you would want to easily find in uNivUSal?
 The `fav` command is here to assist you! `fav` allows you to add the specified person to your `favorite` group.
 
 Format: `fav INDEX`
@@ -668,7 +680,7 @@ Format: `exit`
 **uNivUSal** data are saved as a [JSON](https://en.wikipedia.org/wiki/JSON) file `[JAR file location]/data/univusal.json`. Advanced users are welcome to update data directly by editing that data file.
 
 <div markdown="span" class="alert alert-warning">:exclamation: **Caution:**
-If your changes to the data file makes its format invalid, uNivUSal will discard all data and start with an empty data file at the next run.
+If your changes to the data file makes its format invalid, **uNivUSal** will discard all data and start with an empty data file at the next run.
 </div>
 
 ## Archiving data files `[coming in v2.0]`
@@ -696,7 +708,7 @@ If your computer is not running Java 11, you can install it [here](https://www.o
 
 ## Cosmetics <br>
 **Q**: Can I set my own images for certain contacts?<br>
-**A**: Unfortunately not in this version of **uNivUSal**, although this is a feature we are aiming to roll out in the near future!
+**A**: Unfortunately not in this version of uNivUSal, although this is a feature we are aiming to roll out in the near future!
 
 
 --------------------------------------------------------------------------------------------------------------------
