@@ -240,6 +240,7 @@ It is fine to add a person missing many details as long as the occupation and na
 Examples:
 * `add o/STUDENT n/John Doe p/98765432 e/johnd@example.com tut/T08 a/John street, block 123, #01-01`
 * `add o/TA n/Betsy Crowe e/betsycrowe@u.nus.edu`
+![AddCommandExample](images/AddCommandExample.png)
 
 ### b. Editing a person : `edit`
 
@@ -296,6 +297,7 @@ Clears all entries from **uNivUSal**.
 Format: `clear`
 * Deletes every person in **uNivUSal**.
 * Only a blank **uNivUSal** will remain.
+![ClearCommandExample](images/ClearCommandExample.png)
 
 ### f. Find entries by keywords of fields : `find KEYWORD` e.g. `find John`
 
@@ -308,9 +310,9 @@ Format: `find KEYWORD`
 * Displays filtered list.
 
 Examples:
-* `find John` displays the entries filtered by names that contain the case-insensitive KEYWORD `John`.
-* `find J` displays the entries filtered by names that contain the case-insensitive KEYWORD `J`.
+* `find alex` displays the entries filtered by names that contain the case-insensitive KEYWORD `John`.
 * `find 123456` displays the entries filtered by phone numbers that contain the case-insensitive KEYWORD `123456`.
+![FindCommandExample](images/FindCommandExample.png)
 
 ### g. Sort entries by field : `sort FIELD_PREFIX/` e.g. `sort n/`
 
