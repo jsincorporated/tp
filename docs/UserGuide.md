@@ -13,15 +13,16 @@ If so, **uNivUSal** is **the** contact management app for you! With **uNivUSal**
 ## Introduction
 
 **uNivUSal** is a **desktop app for managing contacts catered to CS2103T students, TAs, and professors**, optimized for use
-via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI).
+via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI). 
+>:bulb: Confused over what CLI & GUI is? [here's](https://www.hostinger.com/tutorials/what-is-cli) a link to get you up to speed!
 
 In this user guide, you can find everything you need to know about **uNivUSal** starting with how to get started using **uNivUSal**, followed by instructions on how to use **uNivUSal** and all the exciting features you can explore.
 
->Note: If you are a developer, you might want to explore our [Developer Guide](https://ay2223s1-cs2103t-t08-3.github.io/tp/DeveloperGuide.html) instead.
+>:information_source: If you are a developer, you might want to explore our [Developer Guide](https://ay2223s1-cs2103t-t08-3.github.io/tp/DeveloperGuide.html) instead.
 
 ## How to use **uNivUSal**'s User Guide?
 
-If this is your first time using **uNivUSal**, welcome! Head over to the [Quick start](#quick-start) to get started using **uNivUSal**!
+If this is your first time using **uNivUSal**, welcome! Head over to the [Quick start](#quick-start) to get started!
 
 If this is not your first time, and you have a specific feature you would like to know more about, checkout our [Table of Contents](#table-of-contents) to find what you are looking for!
 
