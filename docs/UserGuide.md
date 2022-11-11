@@ -332,6 +332,8 @@ Quickly make small changes to a person by clicking on a person card while the co
 This creates an edit command with all the features that person currently has.
 You may then modify this command to your needs.
 
+![QuickEdit](images/QuickEdit.png)
+
 #### b. Add a person to favorite : `fav`
 
 Adds the specified person to `favorite` group.
