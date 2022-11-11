@@ -50,7 +50,7 @@ Refer to the table below for the meanings of symbols used:
 * [Basic Commands](#basic-commands):
     1. [Adding a person](#a-adding-a-person-add) : `add`
     2. [Editing a person](#b-editing-a-person--edit) : `edit`
-    3. [Deleting a person](#c-deleting-a-person--delete) : `delete`
+    3. [Deleting a person](#c-deleting-a-person-delete) : `delete`
     4. [Listing all persons](#d-listing-all-persons--list) : `list`
     5. [Clearing all entries](#e-clearing-all-entries--clear) : `clear`
     6. [Find a person](#f-find-entries-by-keywords-of-fields--find-keyword-eg-find-john) : `find`
@@ -88,7 +88,7 @@ Before starting on your **uNivUSal** exploration, here's a short guide on **uNiv
 1. Ensure you have [Java `11`](https://www.oracle.com/java/technologies/javase/11-relnotes.html#:~:text=The%20Java%20Platform%2C%20Standard%20Edition,enhancements%20in%20many%20functional%20areas.) or above installed in your Computer.
 Otherwise, you can install it [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html).
 
-2. Download the latest [`uNivUSal.jar`](https://github.com/AY2223S1-CS2103T-T08-3/tp/releases/tag/v1.4.0)
+2. Download the latest [`uNivUSal.jar`](https://github.com/AY2223S1-CS2103T-T08-3/tp/releases/tag/v1.4.0).
 
 [!InstallationJarFile](images/InstallationJarFile.png)
 
@@ -101,15 +101,47 @@ Note how the app contains some sample data.<br>
 5. Type the command in the command box and press Enter to execute it. e.g. typing **`help`** and pressing Enter will
 open the help window.
 
-6. Refer to the [Features](#features) ([Basic Features](#basic-features), [Enhanced Features](#enhanced-features), [General App Features](#general-app-features)) below for details of each command.
+6. Refer to the ([Basic Features](#basic-commands), [Enhanced Features](#enhanced-commands), [General App Features](#general-app-commands)) below for details of each command.
 <div style="page-break-after: always;"></div>
 
 ### Layout
 
-In this section, you can explore all of **uNivUSal**'s features. To introduce you to **uNivUSal**'s interface, refer to the
-labelled image below.
+New to **uNivUSal**? Confused with the unfamiliar interface? This section will help you through those problems and guide
+you through **uNivUSal**'s layout!
 
+#### General Layout
+This is how **uNivUSal** will appear when you first launch your app. Now, let's proceed with each component.
 ![Format](images/Format.png)
+
+#### Command Line
+![CommandLine](images/CommandLine.png)
+A command line is the place for you to type in all your commands. Try typing out `help` in the command line for a start!
+
+#### Result Display
+![ResultBox](images/ResultDisplay.png)
+A result display is where you will see **uNivUSal**'s response to your commands! The response would either indicate a
+success or error in the command you entered.
+
+#### Person Card
+![PersonCard](images/PersonCard.png)
+A person card displays all the details of the person you inputted. For example, in the image above, the person has the
+following details:
+* Index - 1
+* Name - Alex Yeoh
+* Tag - friends
+* Tutorial - T08
+* Phone - 87438807
+* Address - Blk 30 Geylang Street 29, #06-40
+* Email - alexyeoh@example.com
+
+Want a more detailed explanation on the person fields? Head over to this section: [Person Fields](#person-fields)
+
+#### Social Box and Social Buttons
+![SocialDetails](images/SocialDetails.png)
+The highlighted feature of **uNivUSal** comes down to our [Socials](#g-add-a-persons-socials--include)! The social box is where you can find all of your
+contact's socials (in the form of buttons), including their [preferred social](#i-set-a-persons-preferred-social-media--prefer).
+
+Want to know more about our social feature? Head over to parts [g](#g-add-a-persons-socials--include) to [k](#k-find-persons-with-a-preferred-social-media--social) of our [Enhanced Commands](#enhanced-commands)!
 
 ### Command Format
 
@@ -301,7 +333,6 @@ Clears all entries from **uNivUSal**.
 Format: `clear`
 * Deletes every person in **uNivUSal**.
 * Only a blank **uNivUSal** will remain.
-![ClearCommandExample](images/ClearCommandExample.png)
 
 ### f. Find entries by keywords of fields : `find KEYWORD` e.g. `find John`
 
@@ -325,7 +356,10 @@ Examples:
 
 ### g. Sort entries by field : `sort FIELD_PREFIX/` e.g. `sort n/`
 
-Sorts entries in **uNivUSal** by specific field prefix in an ascending manner. Current fields implemented are:
+As your contact list in uNivUSal grows, you might find it hard to keep track of all your contacts. When you are looking
+to organize your contacts, the `sort` command will help you do just that!
+
+Sorts your entries easily in **uNivUSal** by specific field prefix in an ascending manner. Current fields implemented are:
 1. Name `n/`
 2. Email address `e/`
 3. Phone `p/`
@@ -335,11 +369,11 @@ Format: `sort FIELD_PREFIX/`
 * Displays sorted list.
 
 Examples:
-* Before `sort n/`, displays the current unsorted list.
+* Before `sort n/`, you would see the current unsorted list.
 
 ![SortBefore](images/SortBefore.jpg)
 
-* After `sort n/`, names are alphabetically sorted.
+* After `sort n/`, all your contacts are alphabetically sorted by their name.
 
 ![SortAfter](images/SortAfter.jpg)
 
@@ -350,8 +384,8 @@ Examples:
 ## Enhanced Commands
 
 Ready to get more out of **uNivUSal**? Here are the enhanced features you can experiment on to enhance your **uNivUSal** experience! <br>
-Enhanced features [**c to f**](#c-adding-a-person-to-a-group--addtogroup) are the groups feature of **uNivUSal**. <br>
-Enhanced features [**g to k**](#g-add-a-persons-socials--include) are the social features of **uNivUSal**. <br>
+Enhanced features **[b](#b-add-a-person-to-favorite--fav) to [f](#f-email-all-persons-in-a-group--emailall)** are the groups feature of **uNivUSal**. <br>
+Enhanced features **[g](#g-add-a-persons-socials--include) to [k](#k-find-persons-with-a-preferred-social-media--social)** are the social features of **uNivUSal**. <br>
 
 ### a. Quickly edit a person's features
 
@@ -363,16 +397,20 @@ You may then modify this command to your needs.
 
 ### b. Add a person to favorite : `fav`
 
-Adds the specified person to `favorite` group.
+Thinking of a group of people important to you? Or perhaps a group of people you would want to easily find in uNivUSal?
+The `fav` command is here to assist you! `fav` allows you to add the specified person to your `favorite` group.
 
 Format: `fav INDEX`
 * The index refers to the index number shown in the displayed person list.
 * The index **must be a positive integer** 1, 2, 3, …​
 
 Examples:
-* `fav 1` will add 1st person in the current list to `favorite`.
+* `fav 1` will add 1st person in the current list to `favorite`. To open the `favorite` group, enter the `group favorite`.
+You should see a new window pop up like the image below. Refer to [`group`](#e-opening-a-group-window--group) for more
+information on accessing your `favorite` group.
 
-![Fav](images/Fav.jpg)
+![Fav](images/Fav.png)
+
 ### c. Adding a person to a group : `addtogroup`
 
 When you're ready to start creating groups and adding people to them, use the `addtogroup` command! If the group does not exist yet, it creates it for you.
@@ -555,7 +593,9 @@ Examples:
 
 ### k. Find persons with a preferred social media : `social`
 
-Filters the current list to people who set their preferred social media to the input.
+With the many forms of preferred social media, you might find it hard to keep track of the people preferring a specific
+social media (e.g. Telegram). Well, the `social` command would easily ease your worries on this! By using the `social`
+command, you can filter the current list to people by a specific preferred social media.
 
 Format: `social SOCIAL`
 * `SOCIAL` currently includes:
@@ -566,7 +606,7 @@ Format: `social SOCIAL`
 * `SOCIAL` is case-insensitive
 
 Examples:
-* Before `social telegram`
+* Before `social telegram`, you will see all your contacts with their multiple preferred social media.
 
 ![socialBefore](images/SocialBefore.jpg)
 
