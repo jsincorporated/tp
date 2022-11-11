@@ -316,6 +316,8 @@ Format: `edit INDEX [o/OCCUPATION] [n/NAME] [p/PHONE] [e/EMAIL] [tut/TUTORIAL] [
 * You can remove all the person’s tags by typing `t/` without
   specifying any tags after it.
 
+<div style="page-break-after: always;"></div>
+
 Examples:
 * `edit 1 p/91234567 e/janedoe@example.com` Edits the phone number and email address of the 1st person to be `91234567`
 and `janedoe@example.com` respectively.
@@ -389,6 +391,8 @@ Format: `sort FIELD_PREFIX/`
 * Sorts the entries by the specified `FIELD_PREFIX/`.
 * Displays sorted list.
 
+<div style="page-break-after: always;"></div>
+
 Examples:
 * Before `sort n/`, you would see the current unsorted list.
 ![SortBefore](images/SortBefore.jpg)
@@ -411,6 +415,8 @@ Quickly make small changes to a person by clicking on a person card while the co
 This creates an edit command with all the features that person currently has.
 You may then modify this command to your needs.
 ![QuickEdit](images/QuickEdit.png)
+
+<div style="page-break-after: always;"></div>
 
 ### b. Add a person to favorite : `fav`
 
@@ -441,6 +447,7 @@ Examples:
 * `addtogroup 2 friends` adds the 2nd person in the current list to the group `friends`.
   ![AddToGroupCommmandExample](images/AddToGroupCommmandExample.png)
 
+<div style="page-break-after: always;"></div>
 
 ### d. Removing a person from a group : `ungroup`
 
@@ -455,6 +462,8 @@ Format: `ungroup INDEX GROUP`
 Examples:
 * `ungroup 2 friends` ungroups the 2nd person in the current list from the group `friends`.
   ![UngroupCommmandExample](images/UngroupCommmandExample.png)
+
+<div style="page-break-after: always;"></div>
 
 ### e. Opening a group window : `group`
 
@@ -666,6 +675,7 @@ Format: `undo`
 * Undoes the last modifying command.
 * Ignores modifying commands if they don't modify the address book.
 * Will cancel out when trying to undo an undo command. This means that you cannot undo the last two actions.
+<div style="page-break-after: always;"></div>
 
 Examples:
 * After `delete 1`, a person (Alex Yeoh) was removed from the list.
@@ -682,6 +692,8 @@ Examples:
 Exits **uNivUSal**.
 
 Format: `exit`
+
+<div style="page-break-after: always;"></div>
 
 ## Saving the data
 
