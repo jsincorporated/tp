@@ -90,7 +90,7 @@ Otherwise, you can install it [here](https://www.oracle.com/java/technologies/ja
 
 2. Download the latest [`uNivUSal.jar`](https://github.com/AY2223S1-CS2103T-T08-3/tp/releases/tag/v1.4.0).
 
-![InstallationJarFile](images/InstallationJarFile.png)
+ ![InstallationJarFile](images/InstallationJarFile.png)
 
 3. Copy and move the file to the folder you want to use as the _home folder_ for your **uNivUSal**.
 
@@ -673,7 +673,7 @@ _Details coming soon ..._
 
 ## FAQ
 
-##General <br>
+## General <br>
 **Q**: How do I transfer my data to another Computer?<br>
 **A**: You can install **uNivUSal** in the other computer and replace the empty data file it creates with the file that contains the data of your previous **uNivUSal** home folder.
 
@@ -689,7 +689,7 @@ If your computer is not running Java 11, you can install it [here](https://www.o
 
 
 
-##Cosmetics <br>
+## Cosmetics <br>
 **Q**: Can I set my own images for certain contacts?<br>
 **A**: Unfortunately not in this version of uNivUSal, although this is a feature we are aiming to roll out in the near future! 
 
