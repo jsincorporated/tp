@@ -308,8 +308,15 @@ Format: `find KEYWORD`
 * Displays filtered list.
 
 Examples:
-* `find John` displays the entries filtered by names that contain the case-insensitive KEYWORD `John`.
-* `find J` displays the entries filtered by names that contain the case-insensitive KEYWORD `J`.
+* `find Alex` displays the entries filtered by names that contain the case-insensitive KEYWORD `Alex`.
+
+[!FindGeneral](images/FindGeneral.png)
+
+
+* `find A` displays the entries filtered by names that contain the case-insensitive KEYWORD `A`.
+
+[!FindSpecific](images/FindSpecific.png)
+
 * `find 123456` displays the entries filtered by phone numbers that contain the case-insensitive KEYWORD `123456`.
 
 ### g. Sort entries by field : `sort FIELD_PREFIX/` e.g. `sort n/`
