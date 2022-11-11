@@ -8,7 +8,7 @@ Are you a **CS2103T student, TA, or professor**?
 
 Have you encountered the hassle of contact management in this CS2103T?
 
-If so, **uNivUSal** is **the** contact management app for you! With **uNivUSal**, you will never have to worry about all the contact information of all your contacts. Gone are the days of frustrating over finding the contacts you need, and you will never be stressed about forgetting the contact information of the people you meet.
+If so, **uNivUSal** is the contact management app for you! With **uNivUSal**, you will never have to worry about all the contact information of all your contacts. Gone are the days of frustrating over finding the contacts you need, and you will never be stressed about forgetting the contact information of the people you meet.
 
 ## Introduction
 
@@ -88,7 +88,7 @@ Otherwise, you can install it [here](https://www.oracle.com/java/technologies/ja
 
 2. Download the latest [`uNivUSal.jar`](https://github.com/AY2223S1-CS2103T-T08-3/tp/releases/tag/v1.4.0).
 
-[!InstallationJarFile](images/InstallationJarFile.png)
+![InstallationJarFile](images/InstallationJarFile.png)
 
 3. Copy and move the file to the folder you want to use as the _home folder_ for your **uNivUSal**.
 
@@ -296,7 +296,7 @@ and `janedoe@example.com` respectively.
 
 #### c. Deleting a person: `delete`
 
-Deletes the specified person or specified person's field from **uNivUSal**.
+Now you might have added a person with many incorrect fields, so to remove them use the `delete` command to delete the specified person or specified person's field from **uNivUSal**.
 
 Format: `delete INDEX [PREFIX/]`
 
@@ -334,7 +334,7 @@ Format: `clear`
 
 ### f. Find entries by keywords of fields : `find KEYWORD` e.g. `find John`
 
-Finds entries in **uNivUSal** that match or contain case-insensitive keyword. Current fields searchable are:
+With so many contacts, it can be frustrating to scroll through them all. With the help of the `find` command, you can find entries in **uNivUSal** that match or contain case-insensitive keyword. Current fields searchable are:
 1. Name
 2. Phone Number
 
@@ -626,7 +626,7 @@ Format: `help`
 
 ### b. Viewing history : `history`
 
-Shows up to the previous five commands typed by the user.
+If you've forgotten the previous commands you've typed, use the `history` command which shows up to the previous five commands typed by the user.
 
 ![history message](images/historyMessage.png)
 
@@ -696,26 +696,26 @@ If your computer is not running Java 11, you can install it [here](https://www.o
 
 ## Command summary
 
-| Action                | Format, Examples                                                                                                                                                                                             |
-|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Help**              | `help`                                                                                                                                                                                                       |
-| **History**           | `history`                                                                                                                                                                                                    |
+| Action                | Format, Examples                                                                                                                                                                                    |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Help**              | `help`                                                                                                                                                                                              |
+| **History**           | `history`                                                                                                                                                                                           |
 | **Add**               | `add o/OCCUPATION n/NAME [p/PHONE_NUMBER] [e/EMAIL] [tut/TUTORIAL] [t/TAG]…​` <br>e.g., `add o/STUDENT n/James Ho p/22224444 e/jamesho@example.com tut/T08 a/123, Clementi Rd, 1234665 t/friend t/colleague` |
-| **List**              | `list`                                                                                                                                                                                                       |
-| **Edit**              | `edit INDEX [o/OCCUPATION] [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [tut/TUTORIAL] [t/TAG]…​`<br> e.g.,`edit 2 n/James Lee e/jameslee@example.com`                                                                |
-| **Delete**            | `delete INDEX [OPTIONAL PREFIX/]`<br> e.g., `delete 3`,`delete 3 p/`                                                                                                                                         |
-| **Clear**             | `clear`                                                                                                                                                                                                      |
-| **Undo**              | `undo`                                                                                                                                                                                                       |
-| **Sort**              | `sort FIELD_PREFIX/` <br> e.g., `sort n/`                                                                                                                                                                    |
-| **Find**              | `find KEYWORD` <br> e.g., `find John / find J`                                                                                                                                                               |
-| **Add To Group**      | `addtogroup INDEX GROUP`                                                                                                                                                                                     |
-| **Ungroup**           | `ungroup INDEX GROUP`                                                                                                                                                                                        |
-| **Open Group Window** | `group GROUPNAME`                                                                                                                                                                                            |
-| **Favorite**          | `fav INDEX`                                                                                                                                                                                                  |
-| **Include**           | `include INDEX s/SOCIAL #/SOCIAL_INFO`                                                                                                                                                                       |
-| **Exclude**           | `exclude INDEX s/SOCIAL`                                                                                                                                                                                     |
-| **Prefer**            | `prefer INDEX s/SOCIAL`                                                                                                                                                                                      |
-| **Open**              | `open INDEX s/SOCIAL`                                                                                                                                                                                        |
-| **Social**            | `social SOCIAL`                                                                                                                                                                                              |                                                                                                                                                                      |
-| **Email All**         | `emailall GROUPNAME`                                                                                                                                                                                         |
-| **Exit**              | `exit`                                                                                                                                                                                                       |
+| **List**              | `list`                                                                                                                                                                                              |
+| **Edit**              | `edit INDEX [o/OCCUPATION] [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [tut/TUTORIAL] [t/TAG]…​`<br> e.g.,`edit 2 n/James Lee e/jameslee@example.com`                                                       |
+| **Delete**            | `delete INDEX [PREFIX/]`<br> e.g., `delete 3`,`delete 3 p/`                                                                                                                                         |
+| **Clear**             | `clear`                                                                                                                                                                                             |
+| **Undo**              | `undo`                                                                                                                                                                                              |
+| **Sort**              | `sort FIELD_PREFIX/` <br> e.g., `sort n/`                                                                                                                                                           |
+| **Find**              | `find KEYWORD` <br> e.g., `find John / find J`                                                                                                                                                      |
+| **Add To Group**      | `addtogroup INDEX GROUP`                                                                                                                                                                            |
+| **Ungroup**           | `ungroup INDEX GROUP`                                                                                                                                                                               |
+| **Open Group Window** | `group GROUPNAME`                                                                                                                                                                                   |
+| **Favorite**          | `fav INDEX`                                                                                                                                                                                         |
+| **Include**           | `include INDEX s/SOCIAL #/SOCIAL_INFO`                                                                                                                                                              |
+| **Exclude**           | `exclude INDEX s/SOCIAL`                                                                                                                                                                            |
+| **Prefer**            | `prefer INDEX s/SOCIAL`                                                                                                                                                                             |
+| **Open**              | `open INDEX s/SOCIAL`                                                                                                                                                                               |
+| **Social**            | `social SOCIAL`                                                                                                                                                                                     |                                                                                                                                                                      |
+| **Email All**         | `emailall GROUPNAME`                                                                                                                                                                                |
+| **Exit**              | `exit`                                                                                                                                                                                              |
