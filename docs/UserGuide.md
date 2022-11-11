@@ -358,7 +358,8 @@ Format: `addtogroup INDEX GROUP`
 * The index **must be a positive integer** 1, 2, 3, …​
 
 Examples:
-* `addtogroup 1 friends` adds the 1st person in the current list to the group `friends`.
+* `addtogroup 2 friends` adds the 2nd person in the current list to the group `friends`.
+![AddToGroupCommmandExample](images/AddToGroupCommmandExample.png)
 
 
 #### d. Removing a person from a group : `ungroup`
@@ -372,7 +373,8 @@ Format: `ungroup INDEX GROUP`
 * The index **must be a positive integer** 1, 2, 3, …​
 
 Examples:
-* `ungroup 1 friends` ungroups the 1st person in the current list from the group `friends`.
+* `ungroup 2 friends` ungroups the 2nd person in the current list from the group `friends`.
+![UngroupCommmandExample](images/UngroupCommmandExample.png)
 
 #### e. Opening a group window : `group`
 
