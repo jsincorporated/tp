@@ -609,7 +609,7 @@ Examples:
 
 * After `social telegram`, you will see a filtered list of persons with `telegram` as their preferred social media.
 
-![socialAfter](images/SocialAfter.png)
+![socialAfter](images/SocialAfter.png)<br>
 
 <div style="page-break-after: always;"></div>
 
