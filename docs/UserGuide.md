@@ -433,7 +433,7 @@ Examples:
 
 ### g. Add a person's socials : `include`
 
-Adds a valid SOCIAL to an existing person in **uNivUSal**.
+You can add a valid SOCIAL to an existing person in **uNivUSal** as shown below.
 
 General format: `include INDEX s/SOCIAL #/SOCIAL_INFO`
 
@@ -476,7 +476,7 @@ Examples:
 
 ### h. Delete a person's socials : `exclude`
 
-Deletes the specified person's socials from **uNivUSal**.
+You can delete a specified person's socials from **uNivUSal** as shown below.
 
 Format: `exclude INDEX s/SOCIAL`
 
@@ -499,7 +499,7 @@ Examples:
 
 ### i. Set a person's preferred social media : `prefer`
 
-Set the specified person's preferred social media in **uNivUSal**.
+You can set a specified person's preferred social media in **uNivUSal** as shown below.
 
 Format: `prefer INDEX s/SOCIAL`
 
@@ -523,7 +523,7 @@ Examples:
 
 ### j. Open a person's social media : `open`
 
-Open the specified person's social media in **uNivUSal**.
+You can open a specified person's social media in **uNivUSal** as shown below.
 
 Format: `open INDEX s/SOCIAL`
 
