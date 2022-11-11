@@ -433,6 +433,7 @@ You should see a new window pop up like the image below. Refer to [`group`](#e-o
 information on accessing your `favorite` group.
 ![Fav](images/Fav.png)
 
+<div style="page-break-after: always;"></div>
 ### c. Adding a person to a group : `addtogroup`
 
 When you're ready to start creating groups and adding people to them, use the `addtogroup` command! If the group does not exist yet, it creates it for you.
@@ -478,7 +479,7 @@ Examples:
 * `group friends` opens a group window containing persons in the group `friends`.
   ![GroupCommandExample](images/GroupCommandExample.png)
 
-
+<div style="page-break-after: always;"></div>
 ### f. Email all persons in a group : `emailall`
 
 What if you want to send an email to all the members of a group? With the `emailall` command, you can do just that!
@@ -540,6 +541,7 @@ Examples:
 > 3. If the person already has an existing email account in **uNivUSal**, it will be added to the social.<br>
 > 4. But the Phone number will not be added as the person's WHATSAPP_PHONE_NUMBER.
 
+<div style="page-break-after: always;"></div>
 ### h. Delete a person's socials : `exclude`
 
 If you made a mistake in entering a person's socials, or a particular contact changed one of their social media information.
@@ -622,6 +624,7 @@ Examples:
 > Clicking the social media boxes of the contacts will open the link to the social media of the person.
 > Try it out!
 
+<div style="page-break-after: always;"></div>
 ### k. Find persons with a preferred social media : `social`
 
 With the many forms of preferred social media, you might find it hard to keep track of the people preferring a specific
